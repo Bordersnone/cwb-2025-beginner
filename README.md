@@ -46,6 +46,7 @@ If you're a student in this course:
 2. Follow along with the step-by-step guides in [/classes/steps/](/classes/steps/)
 3. Reference the [example code](/src) when building your projects
 4. Practice the Git workflow to save and publish your work
+5. Bookmark the [online resources](/classes/README.md#online-references) - professional developers use these every day!
 
 ---
 

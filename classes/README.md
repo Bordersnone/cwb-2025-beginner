@@ -14,5 +14,14 @@ Welcome to the Borders:None web development class curriculum! This repository co
 
 ## Resources
 
+### Course Materials
 - [Step-by-step guides](./steps/) - Detailed walkthroughs for specific tasks
 - [Example code](../src/) - Sample HTML files for reference and experimentation
+
+### Online References
+These are industry-standard resources that professional developers use every day:
+
+- **[MDN Web Docs](https://developer.mozilla.org/)** - The most comprehensive and accurate web development documentation. Great for deep-diving into HTML, CSS, and JavaScript features.
+- **[W3Schools](https://www.w3schools.com/)** - Beginner-friendly tutorials and interactive examples. Perfect for quick references and trying out code.
+- **[Can I Use](https://caniuse.com/)** - Check browser compatibility for HTML, CSS, and JavaScript features.
+- **[HTML Reference](https://htmlreference.io/)** - Visual guide to all HTML elements with examples.
