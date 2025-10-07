@@ -16,11 +16,21 @@ This is a hands-on web development course that takes students from zero to build
 - Deploying websites with Render
 - Building responsive, semantic web pages
 
+## 📅 Class Schedule
+
+| # | Date | Class | Lead | Assistant |
+|---|------|--------|------|------------|
+| 1 | 23-Sep-2025 | [Setup and Tools](/classes/class1-setup-and-tools.md) | Salem | Timotej |
+| 2 | 25-Sep-2025 | [HTML Basics](/classes/class2-html-basics.md) | Timotej | - |
+| 3 | 30-Sep-2025 | [HTML Structure](/classes/class3-html-structure.md) | Timotej | - |
+| 4 | 2-Oct-2025 | [Media and Links](/classes/class4-media-and-links.md) | Timotej | - |
+| 5 | 7-Oct-2025 | [Build, Edit, and Publish](/classes/class5-build-edit-publish.md) | Kiley | Timotej |
+
 ## 🚀 Quick Links
 
 - [View All Classes](/classes/README.md)
-- [Class 5 - Build, Edit, and Publish](/classes/class5-build-edit-publish.md) (Current)
 - [Step-by-Step Guides](/classes/steps/)
+- [Example Code](/src/)
 
 ## 👥 Instructors
 

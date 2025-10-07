@@ -41,6 +41,6 @@ Enhance your pages with additional features. Choose from:
 
 ## Related Resources
 
-- [← Back to Classes](../)
-- [Example Code](../../src/)
-- [Main Repository](../../)
+- [Back to Classes](../README.md) - View all class materials and curriculum
+- [Example Code](../../src/) - Sample HTML files for reference
+- [Main Repository](../../README.md) - Course overview and schedule
