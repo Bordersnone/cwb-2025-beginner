@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .video-container {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Embedding Examples</h1>
+
+    <section>
+        <h2>Example 1: YouTube Video (Embedded)</h2>
+        <p>This is how you embed a YouTube video using an iframe:</p>
+        <div class="video-container">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p><strong>How to get this code:</strong></p>
+        <ol>
+            <li>Go to the YouTube video you want</li>
+            <li>Click the "Share" button</li>
+            <li>Click "Embed"</li>
+            <li>Copy the iframe code</li>
+            <li>Paste it into your HTML</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Example 2: HTML5 Video Element</h2>
+        <p>This is for hosting your own video files:</p>
+        <div class="video-container">
+            <video width="560" height="315" controls>
+                <source src="your-video.mp4" type="video/mp4">
+                <source src="your-video.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p><strong>Note:</strong> Replace "your-video.mp4" with the actual path to your video file.</p>
+    </section>
+
+    <section>
+        <h2>Example 3: Video with Custom Attributes</h2>
+        <p>You can control video behavior with attributes:</p>
+        <div class="video-container">
+            <video width="560" height="315" controls autoplay muted loop>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p><strong>Attributes explained:</strong></p>
+        <ul>
+            <li><code>controls</code> - Shows play/pause buttons</li>
+            <li><code>autoplay</code> - Starts playing automatically</li>
+            <li><code>muted</code> - Starts with sound off (required for autoplay on most browsers)</li>
+            <li><code>loop</code> - Repeats the video when it ends</li>
+            <li><code>poster="image.jpg"</code> - Shows a thumbnail before playing</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Example 4: Responsive Video</h2>
+        <p>To make videos responsive (adjust to screen size), wrap them in a container:</p>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p><em>Try resizing your browser window to see how this video adjusts!</em></p>
+    </section>
+
+    <section>
+        <h2>Tips for Using Videos</h2>
+        <ul>
+            <li>Keep video file sizes small (compress them if needed)</li>
+            <li>Always provide alternative text or descriptions for accessibility</li>
+            <li>Use YouTube or other hosting services for large videos</li>
+            <li>Be mindful of copyright - only use videos you have permission to use</li>
+            <li>Test your videos in different browsers</li>
+        </ul>
+    </section>
+</body>
+</html>
