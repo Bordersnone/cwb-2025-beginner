@@ -24,9 +24,9 @@ This is a hands-on web development course that takes students from zero to build
 
 ## 👥 Instructors
 
-- **Salem** - Instructor
-- **Timotej** - Instructor
-- **Kiley** - Instructor
+- **Salem Velic** - Instructor
+- **Timotej Tušek** - Instructor
+- **Kiley Williams** - Instructor
 
 ## 📖 Getting Started
 
