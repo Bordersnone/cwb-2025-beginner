@@ -1,4 +1,4 @@
-# Borders:None Web Development - Fall 2025 (H2)
+# Borders:None Web Development - Beginner 2025
 
 Welcome to the Borders:None web development teaching repository for the second half of 2025! This repository contains all course materials, class documentation, step-by-step guides, and example code for our web development curriculum.
 
