@@ -13,13 +13,21 @@
 We discovered that some students weren't clear on Git commands, so we started from the very beginning and built up understanding piece by piece.
 
 #### Understanding Git Commands & Syntax
+- **Everything matters in code** - Spaces, capitalization, punctuation - it all matters!
 - **Why spaces matter** - Discussed why `git add.` doesn't work but `git add .` does
-- **Command structure** - Broke down how terminal commands are structured (command + subcommand + arguments)
+- **Command structure** - Broke down how terminal commands are structured:
+  - The main command (e.g., `git`)
+  - A subcommand or action (e.g., `add`, `commit`)
+  - Values/arguments that the command uses (e.g., `.`, `filename.html`)
+  - A space between the command and the word to its right indicates that the word is either a subcommand or a value
 - **Getting help** - Introduced the `-h` and `--help` flags for any command
 
 #### What is a Repository?
 - Used the **post office metaphor** to explain Git concepts
-- A repository is like a post office where you prepare packages to ship
+- A **repository is where you put your code** - like a post office is where mail is delivered to and picked up from
+- **Git is the service** that helps you package and ship your code - just like the postal service provides packaging and shipping services
+- **GitHub** is a company that provides a **remote** repository for you to store your code
+- Historically, there have been all kinds of tools like Git, such as SVN, CVS, Perforce, and ClearCase, but Git has become the most popular
 
 #### The Git Workflow (Post Office Metaphor)
 
@@ -39,26 +47,44 @@ We discovered that some students weren't clear on Git commands, so we started fr
    - **Selective staging** - Sometimes you DON'T want to add everything (e.g., `test_dont_share.html`, `timotej_bank_account.html`)
    - **Unstaging files** - What to do if you accidentally add a file you didn't mean to
 
-3. **`git commit`** - Taping up the box
+3. **`git status`** - Checking what's ready
+   - See what files have been changed
+   - See what's been staged (_which is like seeing what's been put in the box_) and what has not
+   - Super helpful for knowing where you are in the process
+
+4. **`git commit`** - Taping up the box
    - Like sealing your package before shipping
    - Once taped, you can still modify it, but it's more complicated
    - **Importance of commit messages** - Labeling what's in the box
 
-4. **Git Remotes & `origin`**
+5. **Git Remotes & `origin`**
    - Explained what a "remote" is - the destination where you're shipping
    - **What is `origin`?** - The default name for your remote repository
    - You can have multiple remotes pointing to different places
    - Used `git remote` command to view configured remotes
 
-5. **Branches**
+6. **Branches (Brief Introduction)**
    - Discussed **branches and trunks** - the tree analogy
    - **History of Git** - Why branching matters for collaboration
    - **`main` vs `master`** - The naming change and why GitHub made it
    - **`origin/main`** - How your local `main` branch relates to GitHub's `main` branch
+   - Briefly showed how to create and switch branches
+   - **Note:** Emphasized this is an advanced concept - we'll focus on `main` for most of this course
 
-6. **`git push origin main`** - Shipping the package
+7. **`git push origin main`** - Shipping the package
    - Pushed code to GitHub successfully!
    - Everything synced and ready for deployment
+
+8. **`git log`** - Viewing history
+   - Briefly showed how to see the history of commits
+   - Like looking at a receipt of all the packages you've shipped
+
+#### Terminal Navigation Basics
+
+Since students are on different operating systems, we covered basic terminal navigation:
+- **`ls`** (Mac/Linux) and **`dir`** (Windows) - List files in current directory
+- **`cd`** - Change directory to navigate between folders
+- Why these commands are important for working with Git
 
 ### Key Moments
 - ✅ Created a file called `tuesday_git_example.html` to practice
@@ -157,7 +183,18 @@ Create multiple files and practice adding them selectively:
 4. Commit the staged files
 5. Then stage and commit `file3.html` separately
 
-**3. Use the Help Flag**
+**3. Practice Using `git status`**
+
+Get comfortable checking your repository status:
+
+1. Create a new file in your repository
+2. Run `git status` - what does it show?
+3. Stage the file with `git add`
+4. Run `git status` again - what changed?
+5. Commit the file
+6. Run `git status` one more time - what does it say now?
+
+**4. Use the Help Flag**
 
 Practice using the help documentation:
 
@@ -170,6 +207,28 @@ git status --help
 
 Pick one command and write down 3 things you learned from the help documentation.
 
+**5. Practice Terminal Navigation**
+
+Get comfortable moving around in the terminal:
+
+```bash
+# List files in current directory
+ls        # Mac/Linux
+dir       # Windows
+
+# See where you are
+pwd       # Mac/Linux (print working directory)
+cd        # Windows (with no arguments)
+
+# Navigate to a folder
+cd foldername
+
+# Go up one level
+cd ..
+```
+
+Practice navigating to your project folder using `cd`.
+
 ### Extra Credit (Optional)
 
 **Challenge: Fix a Mistake**
@@ -180,12 +239,25 @@ Pick one command and write down 3 things you learned from the help documentation
 4. Delete the file
 5. Stage and commit something else instead
 
-**Exploration: Branch Basics**
+**Exploration: View Your Commit History**
 
-Look up what these commands do (you don't have to run them yet):
+Try the `git log` command:
+
+```bash
+git log
+```
+
+What information does it show you? Can you identify:
+- The commit message you wrote
+- When the commit was made
+- Who made the commit
+
+**Advanced: Branch Basics (Optional)**
+
+We briefly mentioned branches in class. If you're curious, look up what these commands do (but remember, we're focusing on `main` for this course):
 - `git branch`
 - `git branch <branch-name>`
-- `git checkout <branch-name>`
+- `git checkout <branch-name>` or `git switch <branch-name>`
 
 Write a few sentences about what you think branches are used for.
 
@@ -199,14 +271,20 @@ Write a few sentences about what you think branches are used for.
 
 - ✅ What a Git repository is and why we use it
 - ✅ The difference between `git add .` and `git add filename.html`
+- ✅ That everything matters in code (spaces, capitalization, punctuation)
 - ✅ What `.` and `..` mean in terminal commands
+- ✅ How command structure works (command + subcommand/value)
 - ✅ Why spaces matter in commands
 - ✅ How to use `-h` and `--help` flags
 - ✅ What "staging" means in Git
+- ✅ How to use `git status` to see what's changed
 - ✅ How to commit changes with a message
 - ✅ What remotes are and what `origin` means
 - ✅ The difference between `main` and `master` branches
 - ✅ How to push code to GitHub
+- ✅ Basic terminal navigation (`ls`/`dir`, `cd`)
+- ✅ That branches exist (but we're focusing on `main` for now)
+- ✅ How to view commit history with `git log`
 
 ## 🔜 Next Class
 
