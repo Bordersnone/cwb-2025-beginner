@@ -25,6 +25,7 @@ This is a hands-on web development course that takes students from zero to build
 | 3 | 30-Sep-2025 | [HTML Structure](/classes/class3-html-structure.md) | Timotej | - |
 | 4 | 2-Oct-2025 | [Media and Links](/classes/class4-media-and-links.md) | Timotej | - |
 | 5 | 7-Oct-2025 | [Build, Edit, and Publish](/classes/class5-build-edit-publish.md) | Kiley | Timotej |
+| 6 | 9-Oct-2025 | [Deploy Your First Page](/classes/class6-deploy-your-first-page.md) | Salem | Timotej |
 
 ## 🚀 Quick Links
 

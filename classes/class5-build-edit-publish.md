@@ -295,4 +295,4 @@ In our next class, we'll:
 
 ---
 
-← [Class 4 - Media and Links](./class4-media-and-links.md) | [Class 6 - TBD](./class6-tbd.md) →
+← [Class 4 - Media and Links](./class4-media-and-links.md) | [Class 6 - Deploy Your First Page](./class6-deploy-your-first-page.md) →
