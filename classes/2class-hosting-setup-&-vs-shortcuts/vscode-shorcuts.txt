@@ -1,0 +1,18 @@
+
+
+-- shortcuts
+
+CTRL + LEFT/RIGHT ARROW -> skipping whole words
+CTRL + UP/DOWN ARROW -> moving scrollbar up/download
+
+CTRL+SHIFT + LEFT/RIGHT ARROW -> skipping whole words + making a selection
+
+DELETE/REMOVE/BACKSPACE when text is selected -> removes text content inside the selection
+
+TAB when text is selected -> adds spacing(1 tab) at the beginning of the line
+TAB+SHIFT when text is selected -> removes spacing(1 tab) at the beginning of the line
+
+CTRL+Z/Y  -> undo/redo
+CTRL+S  -> save
+
+CTRL->V/X/C -> paste/cut/copy
