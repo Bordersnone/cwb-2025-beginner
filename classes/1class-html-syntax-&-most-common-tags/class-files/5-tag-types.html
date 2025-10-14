@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 5 types of the most common HTML elements/tags </title>
+</head>
+<body>
+    <!-- 1: wrappers -->
+    <elements-adasd attribute-name="some text"> 
+        Your custom (= XML) element = is the same as a <span> span element </span>, it's like a invisible wrapper around your text/..
+    </elements-adasd>
+    <span id="example1" class="example1 example2">[sample use of classes and IDs inside a wrapper]</span><br> 
+    <span id="exampla2" class="example3">[another wrapper, this time with just one class]</span> 
+    <span id="example3" class="example3">[third wrapper, reusing the class - example3, because classes are reusable]</span> 
+    <example attribute-name="lorem10">some inline text</example>
+
+
+    <!-- 2: text -->
+    Your sample      text.
+    <br> <!-- line break (void element = no need for the HTML closure such as </span>) -->
+    <span>Your           <!-- beware the spacing -->                   text wrapped inside 
+        a HTML element</span>
+    <br> 
+    <span> some <b>inline</b> text, and <u>underlined</u>, <i>italic</i> and colored 
+        <span style="color: red"> red</span>  <img src="link to image" alt="">
+    </span>
+
+
+    <!-- 3: boxes -->
+    <p> Lorem ipsum </p>  
+    <h1 id="a2" class="h-1"> heading 1</h1> 
+    <h2> heading 2</h2>
+    <h6> heading 6</h6>
+
+    <!--deprecation: <form>
+        <p>First name:</p>
+        <input type="text" required>
+        <p>Last name:</p>
+        <input type="text" required>
+        <input type="submit">
+    </form> -->
+
+    <div class="wrap">
+        <div class="payment-info">    
+            <div>  <p>  paragraph inside structure </p> </div>    
+            <div>  <p>  paragraph inside structure </p> </div>    
+        </div>
+        <div class="payment-buttons">
+            <button> <img src="link to image" alt=""> Checkout </button>  
+        </div>
+    </div>
+    <!--common with icons:--> <i class="fa-solid fa-eye"></i> 
+
+
+    <!-- 4. images/videos/links -->
+    <video src="link to video"></video> 
+    <video src="assets/videos/vid.mp4"></video> 
+    <img src="link to image">
+    <img src="assets/images/img.jpeg">
+    <img src="in_root_img.jpeg">
+    <a href="https://media.istockphoto.com/id/2063799507/photo/business-portrait-and-black-man-in-city-outdoor-for-career-or-job-of-businessman-face.jpg?s=612x612&w=0&k=20&c=DB5oXy7_aasPbpr7zfpfV92ZYsPIQfFWLyweKEz_UVs="> anchor/link </a>
+    <a href="./assets/images/img.jpeg"> anchor/link </a>
+
+
+    <!-- 5: user input -->
+    <input>
+    <input type="text" placeholder="text you see before you enter something">
+    <input type="number" min="0" max="10" value="100" step="0.5">
+    <input type="file" multiple>
+    <input type="checkbox">
+    <span>group 1</span>
+    <input name="r1-group" type="radio">
+    <input name="r1-group" type="radio">
+    <span>group 2</span>
+    <input name="r2-group" type="radio">
+    <input name="r2-group" type="radio">
+    <input type="checkbox" multiple>
+    <select> 
+        <option value="some value representing the option">Option 1</option> 
+        <option value="some value representing the option">Option 2</option> 
+    </select>
+    <textarea name="" id=""></textarea>
+    <button class="btn btn-outline-red">button name</button> <!-- NOTICE: two classes and context enriched class names -->
+    <button class="btn btn-filled-red">button name 2</button> 
+    <button>Submit 2</button>
+
+
+    <!-- -------- special elements ----------- -->
+
+    <table> 
+        <thead>  
+            <tr>
+                <th>Table Column 1</th>
+                <th>Table Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> row 1: table cell of colun 1 </td>
+                <td> row 1: table cell of colun 2 </td>
+            </tr>
+            <tr>
+                <td> row 2: table cell of colun 1 </td>
+                <td> row 2: table cell of colun 2 </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--uncommon/requires JS: <canvas></canvas> -->
+
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <ol>
+        <li>List item with a number 1</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ol>  
+
+    
+    <!-- -------- contextual boxes ----------- -->
+
+    <section></section>
+    <article></article>
+    <footer></footer>
+    <header></header>
+    <nav></nav>
+
+</body>
+</html>

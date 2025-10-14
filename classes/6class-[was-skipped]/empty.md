@@ -1,0 +1,1 @@
+Class was skipped due lack of people signing up for the class.
