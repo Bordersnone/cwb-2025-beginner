@@ -35,7 +35,10 @@ Adding images, videos, links, and interactive elements
 Deep dive into Git fundamentals and version control
 - **Homework:** Practice Git commands, experiment with staging
 
-### 6. [Deploy Your First Page](./class6-deploy-your-first-page.md)
+### 6. ~~Skipped~~
+Class was canceled due to lack of attendance (October 9, 2025)
+
+### 7. [Deploy Your First Page](./7class-deploy-your-first-page/class7-deploy-your-first-page.md)
 Complete Render deployment and build your first complete HTML page
 - **Homework:** Complete About Me page, practice full workflow, add enhancements
 
