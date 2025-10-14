@@ -1,8 +1,8 @@
 # Class 6 - Deploy Your First Page
 
-**Lead:** Salem  
+**Lead:** Kiley  
 **Assistant:** Timotej  
-**Date:** October 9, 2025
+**Date:** October 14, 2025
 
 ## 🎯 Class Goals
 
