@@ -44,7 +44,7 @@ Complete Render deployment and build your first complete HTML page
 
 ### 8. [About Me Page & CSS Intro](./8class-about-me-page-and-css-intro/class8-about-me-and-css.md)
 Build your complete About Me page and learn CSS basics (Remote video class)
-- **Homework:** Complete styled About Me page, practice deployment workflow, customize CSS
+- **Homework:** Use CSS properties and selectors, practice class/ID selectors, add and style images, use browser DevTools, deploy to Render
 
 ### 9. [CSS Layouts & Flexbox](./9class-css-layouts-and-flexbox/class9-css-layouts.md)
 Move to external CSS, master the box model, and learn Flexbox for modern layouts

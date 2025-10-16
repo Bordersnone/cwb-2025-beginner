@@ -512,29 +512,41 @@ Make things bigger or smaller by changing:
 
 ### Required Practice
 
-**1. Complete Your Styled About Me Page**
+**1. Use CSS Properties and Selectors**
 
-If you didn't finish in class:
-- Complete all required HTML elements
-- Add all the CSS styling
-- Make sure it's deployed and live on Render
+Apply as many of the CSS properties and selectors discussed in class as possible within your HTML file:
+- Experiment with properties: `color`, `border`, `background`, `box-shadow`, `font-weight`, `text-align`, `font-family`, `line-height`, and `vertical-align`
+- Apply inline CSS to style your web page
+- Practice using **class and ID selectors** to target specific elements for styling
 
-**2. Personalize Your Page**
+**2. Add and Style Images**
 
-Change at least 3 things:
-- Pick your own color scheme (not green)
-- Add more information about yourself
-- Try different fonts
+- Add images to your page (if you haven't already)
+- Experiment with styling them:
+  - Adjust `width` and `height`
+  - Try different alignment options
+  - Add borders or other styling
 
-**3. Practice Deployment 2 More Times**
+**3. Use Browser Developer Tools**
 
-Make 2 small changes and deploy each one:
-- Change 1: Modify some text or add a paragraph
-- Change 2: Change a color or font
+- Open your page in a browser
+- Right-click and select "Inspect" (or press F12)
+- Practice using the developer tools to:
+  - Live-edit CSS and test your changes
+  - Experiment safely before committing changes
+  - See how different properties affect your page
 
-**Each time:**
-1. Save → `git add .` → `git commit -m "message"` → `git push origin main`
-2. Check Render to confirm it deployed
+**4. Deploy Your Updated Project**
+
+Submit your work by:
+1. Save all your changes
+2. Push to GitHub: `git add .` → `git commit -m "Add CSS styling"` → `git push origin main`
+3. Ensure your site is deployed and accessible via Render
+4. Test your live site to confirm everything works
+
+**5. Prepare for Next Class**
+
+We'll be building more structured layouts using advanced CSS concepts (external CSS files, Flexbox, and responsive design) in the next class!
 
 ---
 

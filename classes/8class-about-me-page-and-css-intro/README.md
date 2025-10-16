@@ -101,14 +101,17 @@ The materials address these by:
 ## 📋 Homework Assigned
 
 Students are asked to:
-1. Complete their styled About Me page if not finished
-2. Practice the deployment workflow 2 more times
-3. Personalize their CSS (change colors, fonts, spacing)
+1. **Use CSS properties and selectors** - Apply as many properties as possible (color, border, background, box-shadow, font-weight, text-align, font-family, line-height, vertical-align)
+2. **Practice class and ID selectors** - Target specific elements for styling
+3. **Add and style images** - Experiment with width, height, and alignment
+4. **Use browser developer tools** - Live-edit CSS and test changes safely
+5. **Deploy their updated project** - Push to GitHub and ensure site is accessible via Render
+6. **Prepare for next class** - Advanced CSS concepts (external files, Flexbox, responsive design)
 
 **Optional challenges** include:
-- Adding more CSS properties
+- Adding more CSS properties (text-shadow, borders, background-image)
 - Creating a second page
-- Making it mobile-responsive
+- Making it mobile-responsive with media queries
 
 ---
 
