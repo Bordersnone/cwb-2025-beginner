@@ -239,7 +239,7 @@ Add a section with an ordered list:
 3. Wait for Render to deploy
 4. Check your live site!
 
-**📺 Need help with the full page?** [Create About Me Page Tutorial (15 min)](https://www.youtube.com/watch?v=sbq9239tTVo)
+**📺 Need help with the full page?** [Create About Me Page Tutorial (15 min)](https://www.youtube.com/watch?v=E5PO4yEwJI4)
 
 ---
 
@@ -576,7 +576,7 @@ Research "CSS media queries" and make your page look good on phones.
 - [Git Basics Explained (10 min)](https://www.youtube.com/watch?v=qYrsPP4Wnjw) - Understanding Git commands
 
 **Project-Based:**
-- [Create About Me Page (15 min)](https://www.youtube.com/watch?v=sbq9239tTVo) - Full project walkthrough
+- [Create About Me Page (15 min)](https://www.youtube.com/watch?v=E5PO4yEwJI4) - Full project walkthrough
 
 ### Written Resources
 

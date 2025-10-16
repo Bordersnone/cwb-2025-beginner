@@ -237,7 +237,7 @@ A curated list of high-quality YouTube tutorials for web development beginners. 
 ## Project-Based Learning
 
 ### Create About Me Page with HTML & CSS
-- **Link:** https://www.youtube.com/watch?v=sbq9239tTVo
+- **Link:** https://www.youtube.com/watch?v=E5PO4yEwJI4
 - **Duration:** ~15 minutes
 - **Description:** Step-by-step tutorial for creating a complete About Me page with HTML structure and CSS styling.
 - **Best for:** Class 8 (About Me page project)
