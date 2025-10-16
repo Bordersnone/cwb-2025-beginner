@@ -27,12 +27,13 @@ This is a hands-on web development course that takes students from zero to build
 | 5 | 7-Oct-2025 | [Git & Build, Edit, Publish](/classes/5class-git-&-build-edit-publish/class5-build-edit-publish.md) | Kiley | Timotej |
 | 6 | ~~9-Oct-2025~~ | ~~Skipped~~ | - | - |
 | 7 | 14-Oct-2025 | [Deploy Your First Page](/classes/7class-deploy-your-first-page/class7-deploy-your-first-page.md) | Kiley | Timotej |
+| 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/8class-about-me-page-and-css-intro/class8-about-me-and-css.md) | Timotej | - |
 
 ## 🚀 Quick Links
 
 - [View All Classes](/classes/README.md)
-- [Step-by-Step Guides](/classes/steps/)
 - [Example Code](/src/)
+- [Video Tutorial Library](/resources/video-tutorials.md)
 
 ## 👥 Instructors
 
@@ -45,7 +46,7 @@ This is a hands-on web development course that takes students from zero to build
 If you're a student in this course:
 
 1. Browse the [class documentation](/classes) to find your current lesson
-2. Follow along with the step-by-step guides in [/classes/steps/](/classes/steps/)
+2. Watch the [video tutorials](/resources/video-tutorials.md) for additional help
 3. Reference the [example code](/src) when building your projects
 4. Practice the Git workflow to save and publish your work
 5. Bookmark the [online resources](/classes/README.md#online-references) - professional developers use these every day!
