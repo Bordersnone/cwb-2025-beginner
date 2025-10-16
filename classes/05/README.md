@@ -113,7 +113,7 @@ Below is what we originally planned to cover (for reference):
 
 We'll start by making sure everyone's Render deployment is working correctly.
 
-[→ Render Deployment Check Guide](./steps/render-deployment-check.md)
+[→ Render Deployment Check Guide](../07/render-deployment-check.md)
 
 ### 2. Build Your "About Me" Page
 
@@ -125,7 +125,7 @@ Time to create your first complete web page! We'll build an "About Me" page that
 - Links to your social media or projects
 - At least one image
 
-[→ HTML About Page Guide](./steps/html-about-page.md)
+[→ HTML About Page Guide](../01/steps/html-about-page.md)
 
 ### 3. Practice the Git Workflow
 
@@ -135,7 +135,7 @@ Learn the essential Git commands to save and publish your work:
 - `git commit` - Save your changes with a message
 - `git push` - Publish your changes to GitHub
 
-[→ Git Workflow Guide](./steps/git-workflow.md)
+[→ Git Workflow Guide](./git-workflow.md)
 
 ### 4. Mini-Challenge
 
@@ -145,7 +145,7 @@ Once your About Me page is live, enhance it by adding one of the following:
 - A contact form
 - A table with information about yourself
 
-[→ Mini-Challenge Guide](./steps/mini-challenge.md)
+[→ Mini-Challenge Guide](../01/steps/mini-challenge.md)
 
 </details>
 
@@ -263,7 +263,7 @@ Write a few sentences about what you think branches are used for.
 
 ## 📖 Resources for Review
 
-- [Git Workflow Guide](./steps/git-workflow.md) - Step-by-step Git commands
+- [Git Workflow Guide](./git-workflow.md) - Step-by-step Git commands
 - [GitHub Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) - Quick reference
 - [Git Documentation](https://git-scm.com/doc) - Official Git docs
 
