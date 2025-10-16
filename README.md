@@ -20,11 +20,11 @@ This is a hands-on web development course that takes students from zero to build
 
 | # | Date | Class | Lead | Assistant |
 |---|------|--------|------|------------|
-| 1 | 23-Sep-2025 | [HTML Syntax & Most Common Tags](/classes/1class-html-syntax-&-most-common-tags/) | Salem | Timotej |
-| 2 | 25-Sep-2025 | [Hosting Setup & VS Shortcuts](/classes/2class-hosting-setup-&-vs-shortcuts/) | Timotej | - |
+| 1 | 23-Sep-2025 | [HTML Syntax & Most Common Tags](/classes/1class-html-syntax-and-most-common-tags/) | Salem | Timotej |
+| 2 | 25-Sep-2025 | [Hosting Setup & VS Shortcuts](/classes/2class-hosting-setup-and-vs-shortcuts/) | Timotej | - |
 | 3 | 30-Sep-2025 | [HTML Structure](/classes/3class-html-structure/class3-html-structure.md) | Timotej | - |
-| 4 | 2-Oct-2025 | [Remote, Absolute & Relative Paths](/classes/4class-remote-absolute-&-relative-paths/class4-media-and-links.md) | Timotej | - |
-| 5 | 7-Oct-2025 | [Git & Build, Edit, Publish](/classes/5class-git-&-build-edit-publish/class5-build-edit-publish.md) | Kiley | Timotej |
+| 4 | 2-Oct-2025 | [Remote, Absolute & Relative Paths](/classes/4class-remote-absolute-and-relative-paths/class4-media-and-links.md) | Timotej | - |
+| 5 | 7-Oct-2025 | [Git & Build, Edit, Publish](/classes/5class-git-and-build-edit-publish/class5-build-edit-publish.md) | Kiley | Timotej |
 | 6 | ~~9-Oct-2025~~ | ~~Skipped~~ | - | - |
 | 7 | 14-Oct-2025 | [Deploy Your First Page](/classes/7class-deploy-your-first-page/class7-deploy-your-first-page.md) | Kiley | Timotej |
 | 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/8class-about-me-page-and-css-intro/class8-about-me-and-css.md) | Timotej | Kiley |

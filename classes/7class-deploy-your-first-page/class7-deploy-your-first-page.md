@@ -157,7 +157,7 @@ Your "About Me" page must include:
 </html>
 ```
 
-**Full Guide:** [html-about-page.md](../1class-html-syntax-&-most-common-tags/steps/html-about-page.md)
+**Full Guide:** [html-about-page.md](../1class-html-syntax-and-most-common-tags/steps/html-about-page.md)
 
 ---
 
@@ -199,7 +199,7 @@ Enhance your page with one of these:
 3. **Add a video** - Embed a YouTube video you like
 4. **Add a form** - Simple contact form (won't send yet, just practice)
 
-**Ideas & Examples:** [mini-challenge.md](../1class-html-syntax-&-most-common-tags/steps/mini-challenge.md)
+**Ideas & Examples:** [mini-challenge.md](../1class-html-syntax-and-most-common-tags/steps/mini-challenge.md)
 
 ---
 
@@ -278,12 +278,12 @@ Notice how the status changes at each step!
 ### Guides for Today
 - [Render Deployment Check](../../setup/render-deployment-check.md) - Troubleshooting deployment
 - [Git Workflow Guide](../../setup/git-workflow.md) - Detailed Git commands
-- [HTML About Page](../1class-html-syntax-&-most-common-tags/steps/html-about-page.md) - Building your page
-- [Mini-Challenge](../1class-html-syntax-&-most-common-tags/steps/mini-challenge.md) - Enhancement ideas
+- [HTML About Page](../1class-html-syntax-and-most-common-tags/steps/html-about-page.md) - Building your page
+- [Mini-Challenge](../1class-html-syntax-and-most-common-tags/steps/mini-challenge.md) - Enhancement ideas
 
 ### Tools Reference
-- [push.bat script](../2class-hosting-setup-&-vs-shortcuts/push.bat) - Automation script
-- [VS Code Shortcuts](../2class-hosting-setup-&-vs-shortcuts/vscode-shorcuts.txt) - Keyboard shortcuts
+- [push.bat script](../2class-hosting-setup-and-vs-shortcuts/push.bat) - Automation script
+- [VS Code Shortcuts](../2class-hosting-setup-and-vs-shortcuts/vscode-shorcuts.txt) - Keyboard shortcuts
 
 ### Online References
 - [MDN - HTML Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
@@ -333,4 +333,4 @@ Your site might be simple now, but:
 
 ---
 
-← [Class 5 - Git & Build, Edit, Publish](../5class-git-&-build-edit-publish/class5-build-edit-publish.md) | [Class 8 - About Me Page & CSS Intro](../8class-about-me-page-and-css-intro/class8-about-me-and-css.md) →
+← [Class 5 - Git & Build, Edit, Publish](../5class-git-and-build-edit-publish/class5-build-edit-publish.md) | [Class 8 - About Me Page & CSS Intro](../8class-about-me-page-and-css-intro/class8-about-me-and-css.md) →
