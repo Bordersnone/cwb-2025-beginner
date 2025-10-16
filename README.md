@@ -27,7 +27,8 @@ This is a hands-on web development course that takes students from zero to build
 | 5 | 7-Oct-2025 | [Git & Build, Edit, Publish](/classes/5class-git-&-build-edit-publish/class5-build-edit-publish.md) | Kiley | Timotej |
 | 6 | ~~9-Oct-2025~~ | ~~Skipped~~ | - | - |
 | 7 | 14-Oct-2025 | [Deploy Your First Page](/classes/7class-deploy-your-first-page/class7-deploy-your-first-page.md) | Kiley | Timotej |
-| 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/8class-about-me-page-and-css-intro/class8-about-me-and-css.md) | Timotej | - |
+| 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/8class-about-me-page-and-css-intro/class8-about-me-and-css.md) | Timotej | Kiley |
+| 9 | 21-Oct-2025 | [CSS Layouts & Flexbox](/classes/9class-css-layouts-and-flexbox/class9-css-layouts.md) | Timotej | - |
 
 ## 🚀 Quick Links
 

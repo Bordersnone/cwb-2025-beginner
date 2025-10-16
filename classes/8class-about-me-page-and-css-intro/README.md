@@ -2,7 +2,8 @@
 
 **Format:** Remote Video Class  
 **Lead Instructor:** Timotej  
-**Date:** October 21, 2025
+**Assistant:** Kiley  
+**Date:** October 16, 2025
 
 ---
 
@@ -138,7 +139,7 @@ Students are successful if they:
 
 This class structure is different from previous classes:
 - **More self-paced** due to video format
-- **More YouTube resources** since Timotej teaches alone
+- **More YouTube resources** for additional support
 - **More written detail** since students may have slow connections
 - **More encouraging language** since students work independently
 

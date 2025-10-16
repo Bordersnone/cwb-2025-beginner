@@ -1,8 +1,8 @@
 # Class 8 - Build Your About Me Page & Intro to CSS
 
 **Lead:** Timotej  
-**Assistant:** (Remote video class)  
-**Date:** October 21, 2025
+**Assistant:** Kiley  
+**Date:** October 16, 2025
 
 > **Note:** This class is being taught via video. Please follow the step-by-step instructions below at your own pace. Each section has a YouTube video to help you understand the concepts.
 
@@ -653,4 +653,4 @@ These are valuable, marketable skills. Keep practicing and be proud of your prog
 
 ---
 
-← [Class 7 - Deploy Your First Page](../7class-deploy-your-first-page/class7-deploy-your-first-page.md) | [Class 9 - TBD] →
+← [Class 7 - Deploy Your First Page](../7class-deploy-your-first-page/class7-deploy-your-first-page.md) | [Class 9 - CSS Layouts & Flexbox](../9class-css-layouts-and-flexbox/class9-css-layouts.md) →
