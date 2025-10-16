@@ -81,4 +81,4 @@ git push origin main
 
 ---
 
-[← Back to Class 7](../classes/07/)
+[← Back to Class 7](./)

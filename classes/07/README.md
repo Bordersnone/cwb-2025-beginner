@@ -82,7 +82,7 @@ Let's make sure everyone's deployment pipeline is working.
    - Watch Render deploy automatically (check the "Events" tab)
    - Visit your live URL to see the change
 
-**Troubleshooting Guide:** [render-deployment-check.md](../../setup/render-deployment-check.md)
+**Troubleshooting Guide:** [render-deployment-check.md](./render-deployment-check.md)
 
 ---
 
@@ -276,8 +276,8 @@ Notice how the status changes at each step!
 ## 📖 Resources
 
 ### Guides for Today
-- [Render Deployment Check](../../setup/render-deployment-check.md) - Troubleshooting deployment
-- [Git Workflow Guide](../../setup/git-workflow.md) - Detailed Git commands
+- [Render Deployment Check](./render-deployment-check.md) - Troubleshooting deployment
+- [Git Workflow Guide](../05/git-workflow.md) - Detailed Git commands
 - [HTML About Page](../01/steps/html-about-page.md) - Building your page
 - [Mini-Challenge](../01/steps/mini-challenge.md) - Enhancement ideas
 

@@ -6,12 +6,21 @@ Welcome to the Borders:None web development class curriculum! This repository co
 
 ## How to Use This Curriculum
 
-Each class page now includes:
+Each class page includes:
 - **📝 Class Recap** - What we covered in class (including examples and metaphors used)
 - **🏠 Homework & Practice** - Exercises to practice at home
 - **📖 Resources** - Links for further learning
 - **✅ What You Should Know** - Learning objectives checklist
 - **🔜 Next Class** - Preview of what's coming
+
+### Working with Guides and Materials
+
+1. **Follow sequentially** - Classes build on each other, so go in order
+2. **Copy and experiment** - Try the code examples in your own projects
+3. **Read carefully** - Pay attention to explanations, not just code
+4. **Ask questions** - If something isn't clear, reach out to instructors
+
+Some classes include **detailed reference guides** (like the Git workflow guide in Class 5) that you can return to whenever you need a refresher.
 
 ## Classes
 
