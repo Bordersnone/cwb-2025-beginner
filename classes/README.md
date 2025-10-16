@@ -15,40 +15,32 @@ Each class page now includes:
 
 ## Classes
 
-### 1. [Setup and Tools](./class1-setup-and-tools.md)
+### [01](./01/) - HTML Syntax & Setup
 Setting up your development environment with VS Code, GitHub, and Git
-- **Homework:** Verify setup, explore VS Code and GitHub
 
-### 2. [HTML Basics](./class2-html-basics.md)
-Introduction to HTML fundamentals and basic web page structure
-- **Homework:** Create your first HTML page, practice headings and paragraphs
+### [02](./02/) - Hosting Setup & VS Shortcuts
+Introduction to hosting platforms and mastering VS Code shortcuts
 
-### 3. [HTML Structure](./class3-html-structure.md)
+### [03](./03/) - HTML Structure
 Building semantic page structures with proper HTML5 elements
-- **Homework:** Build a structured page, practice with lists
 
-### 4. [Media and Links](./class4-media-and-links.md)
-Adding images, videos, links, and interactive elements
-- **Homework:** Create a media-rich page, build navigation menus
+### [04](./04/) - Media & Links
+Adding images, videos, links, and understanding absolute vs relative paths
 
-### 5. [Build, Edit, and Publish](./class5-build-edit-publish.md)
-Deep dive into Git fundamentals and version control
-- **Homework:** Practice Git commands, experiment with staging
+### [05](./05/) - Git & Build-Edit-Publish
+Deep dive into Git fundamentals and the development workflow
 
-### 6. ~~Skipped~~
+### [06](./06/) - Skipped
 Class was canceled due to lack of attendance (October 9, 2025)
 
-### 7. [Deploy Your First Page](./7class-deploy-your-first-page/class7-deploy-your-first-page.md)
+### [07](./07/) - Deploy Your First Page
 Complete Render deployment and build your first complete HTML page
-- **Homework:** Complete About Me page, practice full workflow, add enhancements
 
-### 8. [About Me Page & CSS Intro](./8class-about-me-page-and-css-intro/class8-about-me-and-css.md)
+### [08](./08/) - About Me Page & CSS Intro
 Build your complete About Me page and learn CSS basics (Remote video class)
-- **Homework:** Use CSS properties and selectors, practice class/ID selectors, add and style images, use browser DevTools, deploy to Render
 
-### 9. [CSS Layouts & Flexbox](./9class-css-layouts-and-flexbox/class9-css-layouts.md)
+### [09](./09/) - CSS Layouts & Flexbox
 Move to external CSS, master the box model, and learn Flexbox for modern layouts
-- **Homework:** Customize color scheme, add skill cards, experiment with Flexbox properties
 
 ## Resources
 
