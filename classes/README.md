@@ -42,12 +42,17 @@ Class was canceled due to lack of attendance (October 9, 2025)
 Complete Render deployment and build your first complete HTML page
 - **Homework:** Complete About Me page, practice full workflow, add enhancements
 
+### 8. [About Me Page & CSS Intro](./8class-about-me-page-and-css-intro/class8-about-me-and-css.md)
+Build your complete About Me page and learn CSS basics (Remote video class)
+- **Homework:** Complete styled About Me page, practice deployment workflow, customize CSS
+
 ## Resources
 
 ### Course Materials
 - [Step-by-step guides](./steps/) - Detailed walkthroughs for specific tasks
 - [Example code](../src/) - Sample HTML files for reference and experimentation
 - [Class template](./class-template.md) - Template for instructors creating new classes
+- [📺 Video Tutorial Library](../resources/video-tutorials.md) - Curated YouTube videos for each topic
 
 ### Online References
 These are industry-standard resources that professional developers use every day:

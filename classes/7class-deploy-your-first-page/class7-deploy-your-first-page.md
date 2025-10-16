@@ -333,4 +333,4 @@ Your site might be simple now, but:
 
 ---
 
-← [Class 5 - Git & Build, Edit, Publish](../5class-git-&-build-edit-publish/class5-build-edit-publish.md) | [Class 8 - TBD] →
+← [Class 5 - Git & Build, Edit, Publish](../5class-git-&-build-edit-publish/class5-build-edit-publish.md) | [Class 8 - About Me Page & CSS Intro](../8class-about-me-page-and-css-intro/class8-about-me-and-css.md) →
