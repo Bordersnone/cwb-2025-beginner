@@ -49,9 +49,7 @@ Build your complete About Me page and learn CSS basics (Remote video class)
 ## Resources
 
 ### Course Materials
-- [Step-by-step guides](./steps/) - Detailed walkthroughs for specific tasks
 - [Example code](../src/) - Sample HTML files for reference and experimentation
-- [Class template](./class-template.md) - Template for instructors creating new classes
 - [📺 Video Tutorial Library](../resources/video-tutorials.md) - Curated YouTube videos for each topic
 
 ### Online References
@@ -63,6 +61,3 @@ These are industry-standard resources that professional developers use every day
 - **[HTML Reference](https://htmlreference.io/)** - Visual guide to all HTML elements with examples.
 - **[GitHub Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)** - Quick reference for Git commands
 
-## For Instructors
-
-See the [Instructor Guide](./INSTRUCTOR-GUIDE.md) for documentation on how to use the class structure and update materials after each session.

@@ -8,12 +8,7 @@
 
 ## 📁 Files in This Directory
 
-### For Students:
 - **[class8-about-me-and-css.md](./class8-about-me-and-css.md)** - Main lesson with step-by-step instructions and embedded YouTube videos
-- **[notes.md](./notes.md)** - Class notes (to be filled out after class)
-
-### For Instructors:
-- **[INSTRUCTOR-GUIDE.md](./INSTRUCTOR-GUIDE.md)** - Comprehensive guide for Timotej with teaching tips, timing, and common pitfalls
 
 ---
 
@@ -131,32 +126,11 @@ Students are successful if they:
 
 ## 🔗 Quick Links
 
-### For Timotej (Instructor):
-- [Instructor Guide](./INSTRUCTOR-GUIDE.md) - Read this before recording!
-- [Class Lesson Plan](./class8-about-me-and-css.md) - Follow this during class
-- [Video Library](../../resources/video-tutorials.md) - Reference for additional videos
-
-### For Students:
 - [Class 8 Lesson](./class8-about-me-and-css.md) - Main lesson with all instructions
 - [Video Tutorial Library](../../resources/video-tutorials.md) - All curated videos
 - [Class 7 Recap](../7class-deploy-your-first-page/class7-deploy-your-first-page.md) - Review previous class
-
-### General Resources:
 - [Git Workflow Guide](../../setup/git-workflow.md) - Detailed Git reference
 - [Render Deployment Check](../../setup/render-deployment-check.md) - Troubleshooting deployment
-
----
-
-## 📝 After Class
-
-**For Timotej:** Please update [notes.md](./notes.md) with:
-- What you covered in the video
-- What worked well
-- What students struggled with
-- What to prioritize next class
-- Any technical issues encountered
-
-**For Kiley:** Review the notes and student progress to plan Class 9.
 
 ---
 

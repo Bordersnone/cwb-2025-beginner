@@ -1,5 +1,0 @@
-- We showed how to configure author details (name and email) for git
-- We discussed and accomplished getting everyone's Render accounts configured and connected to their GitHub accounts so that they can deploy their websites
-- Since class had to end abruptly at 1915, we did not get the chance to practice making a change multiple times in order to see the automatic deployment to Render, so that will need to be done in class 8
-- Since class had to end abruptly at 1915, we did not get a chance to learn the basics about CSS, where to put it (inline, in a style tag, or in a separate file), or what styling actually does, so that will need to be done in class 8
-- Since class had to end abruptly at 1915, we did not get a chance to put the various problems that could arise with different tags or with git into practice, so that will need to be done in class 8
