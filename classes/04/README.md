@@ -67,9 +67,9 @@ Build a simple photo gallery page with:
 
 ## 📖 Resources
 
-- [Video example](../src/video-example.html)
-- [Form example](../src/basic-form-example.html)
-- [Table example](../src/table-example.html)
+- [Video example](../../examples/video-example.html)
+- [Form example](../../examples/basic-form-example.html)
+- [Table example](../../examples/table-example.html)
 - [MDN - Images](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 - [MDN - Links](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 

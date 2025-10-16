@@ -80,5 +80,4 @@ Each example includes:
 ## Related Resources
 
 - [← Back to Classes](../classes/)
-- [Step-by-Step Guides](../classes/steps/)
 - [Main Repository](../)

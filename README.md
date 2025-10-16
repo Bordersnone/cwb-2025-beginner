@@ -5,7 +5,7 @@ Welcome to the Borders:None web development teaching repository for the second h
 ## 📚 What's Inside
 
 - **[Class Documentation](/classes)** - Complete curriculum with lesson plans, guides, and resources
-- **[Example Code](/src)** - Sample HTML files and templates for students to reference and experiment with
+- **[Example Code](/examples)** - Sample HTML files and templates for students to reference and experiment with
 
 ## 🎓 About This Course
 
@@ -33,7 +33,7 @@ This is a hands-on web development course that takes students from zero to build
 ## 🚀 Quick Links
 
 - [View All Classes](/classes/README.md)
-- [Example Code](/src/)
+- [Example Code](/examples/)
 - [Video Tutorial Library](/resources/video-tutorials.md)
 
 ## 👥 Instructors
@@ -48,7 +48,7 @@ If you're a student in this course:
 
 1. Browse the [class documentation](/classes) to find your current lesson
 2. Watch the [video tutorials](/resources/video-tutorials.md) for additional help
-3. Reference the [example code](/src) when building your projects
+3. Reference the [example code](/examples) when building your projects
 4. Practice the Git workflow to save and publish your work
 5. Bookmark the [online resources](/classes/README.md#online-references) - professional developers use these every day!
 

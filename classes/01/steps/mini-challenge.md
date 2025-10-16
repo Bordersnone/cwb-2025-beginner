@@ -13,7 +13,7 @@ Embed a video that represents you or your interests. This could be:
 - A tutorial that got you interested in coding
 - Any other video that's meaningful to you
 
-**See the example:** [video-example.html](../../src/video-example.html)
+**See the example:** [video-example.html](../../../examples/video-example.html)
 
 #### Using YouTube Embed
 
@@ -58,7 +58,7 @@ If you have a video file:
 
 Create a simple contact form where people can send you messages.
 
-**See the example:** [basic-form-example.html](../../src/basic-form-example.html)
+**See the example:** [basic-form-example.html](../../../examples/basic-form-example.html)
 
 ```html
 <section>
@@ -105,7 +105,7 @@ Create a simple contact form where people can send you messages.
 
 Create a table to display organized information about yourself.
 
-**See the example:** [table-example.html](../../src/table-example.html)
+**See the example:** [table-example.html](../../../examples/table-example.html)
 
 #### Example 1: Skills Table
 
@@ -247,7 +247,7 @@ Use additional semantic elements:
 ## Tips for Success
 
 1. **Start small** - Pick one option and get it working first
-2. **Use the examples** - Check out the sample files in `/src/`
+2. **Use the examples** - Check out the sample files in `/examples/`
 3. **Test frequently** - Preview your page in the browser after each change
 4. **Don't be afraid to experiment** - You can always undo changes
 5. **Ask for help** - If you get stuck, ask your instructor or classmates

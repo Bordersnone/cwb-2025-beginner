@@ -14,7 +14,7 @@ An "About Me" page is a personal introduction page that typically includes:
 
 ## Full Example
 
-Here's a complete example you can use as a starting point. See the full example at [about-page-example.html](../../src/about-page-example.html).
+Here's a complete example you can use as a starting point. See the full example at [about-page-example.html](../../../examples/about-page-example.html).
 
 ```html
 <!DOCTYPE html>

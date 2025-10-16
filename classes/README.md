@@ -54,7 +54,7 @@ Move to external CSS, master the box model, and learn Flexbox for modern layouts
 ## Resources
 
 ### Course Materials
-- [Example code](../src/) - Sample HTML files for reference and experimentation
+- [Example code](../examples/) - Sample HTML files for reference and experimentation
 - [📺 Video Tutorial Library](../resources/video-tutorials.md) - Curated YouTube videos for each topic
 
 ### Online References
