@@ -197,4 +197,4 @@ git log --oneline
 
 ---
 
-[← Back to Class 5](../class5-build-edit-publish.md)
+[← Back to Class 5](../classes/05/)

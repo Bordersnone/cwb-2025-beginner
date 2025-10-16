@@ -86,4 +86,4 @@ Build a simple photo gallery page with:
 
 ---
 
-← [Class 3 - HTML Structure](./class3-html-structure.md) | [Class 5 - Build, Edit, and Publish](./class5-build-edit-publish.md) →
+← [Class 3 - HTML Structure](../03/) | [Class 5 - Build, Edit, and Publish](../05/) →

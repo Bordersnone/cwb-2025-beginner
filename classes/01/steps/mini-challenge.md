@@ -265,4 +265,4 @@ Before you consider the challenge complete:
 
 ---
 
-[← Back to Class 5](../class5-build-edit-publish.md)
+[← Back to Class 7](../../07/)

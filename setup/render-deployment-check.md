@@ -81,4 +81,4 @@ git push origin main
 
 ---
 
-[← Back to Class 5](../class5-build-edit-publish.md)
+[← Back to Class 7](../classes/07/)
