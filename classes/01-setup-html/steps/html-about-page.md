@@ -278,4 +278,4 @@ To make sure your HTML is correct, you can use the [W3C HTML Validator](https://
 
 ---
 
-[← Back to Class 7](../../07/)
+[← Back to Class 7](../../07-deploy-page/)

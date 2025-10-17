@@ -99,4 +99,4 @@ Create a complete recipe page that uses:
 
 ---
 
-← [Class 2 - HTML Basics](../02/) | [Class 4 - Media and Links](../04/) →
+← [Class 2 - HTML Basics](../02-hosting-shortcuts/) | [Class 4 - Media and Links](../04-media-links/) →

@@ -113,7 +113,7 @@ Below is what we originally planned to cover (for reference):
 
 We'll start by making sure everyone's Render deployment is working correctly.
 
-[→ Render Deployment Check Guide](../07/render-deployment-check.md)
+[→ Render Deployment Check Guide](../07-deploy-page/render-deployment-check.md)
 
 ### 2. Build Your "About Me" Page
 
@@ -125,7 +125,7 @@ Time to create your first complete web page! We'll build an "About Me" page that
 - Links to your social media or projects
 - At least one image
 
-[→ HTML About Page Guide](../01/steps/html-about-page.md)
+[→ HTML About Page Guide](../01-setup-html/steps/html-about-page.md)
 
 ### 3. Practice the Git Workflow
 
@@ -145,7 +145,7 @@ Once your About Me page is live, enhance it by adding one of the following:
 - A contact form
 - A table with information about yourself
 
-[→ Mini-Challenge Guide](../01/steps/mini-challenge.md)
+[→ Mini-Challenge Guide](../01-setup-html/steps/mini-challenge.md)
 
 </details>
 
@@ -295,4 +295,4 @@ In our next class, we'll:
 
 ---
 
-← [Class 4 - Media and Links](../04/) | [Class 7 - Deploy Your First Page](../07/) →
+← [Class 4 - Media and Links](../04-media-links/) | [Class 7 - Deploy Your First Page](../07-deploy-page/) →

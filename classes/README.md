@@ -24,31 +24,31 @@ Some classes include **detailed reference guides** (like the Git workflow guide 
 
 ## Classes
 
-### [01](./01/) - HTML Syntax & Setup
+### [01](./01-setup-html/) - HTML Syntax & Setup
 Setting up your development environment with VS Code, GitHub, and Git
 
-### [02](./02/) - Hosting Setup & VS Shortcuts
+### [02](./02-hosting-shortcuts/) - Hosting Setup & VS Shortcuts
 Introduction to hosting platforms and mastering VS Code shortcuts
 
-### [03](./03/) - HTML Structure
+### [03](./03-html-structure/) - HTML Structure
 Building semantic page structures with proper HTML5 elements
 
-### [04](./04/) - Media & Links
+### [04](./04-media-links/) - Media & Links
 Adding images, videos, links, and understanding absolute vs relative paths
 
-### [05](./05/) - Git & Build-Edit-Publish
+### [05](./05-git-workflow/) - Git & Build-Edit-Publish
 Deep dive into Git fundamentals and the development workflow
 
-### [06](./06/) - Skipped
+### [06](./06-skipped/) - Skipped
 Class was canceled due to lack of attendance (October 9, 2025)
 
-### [07](./07/) - Deploy Your First Page
+### [07](./07-deploy-page/) - Deploy Your First Page
 Complete Render deployment and build your first complete HTML page
 
-### [08](./08/) - About Me Page & CSS Intro
+### [08](./08-css-intro/) - About Me Page & CSS Intro
 Build your complete About Me page and learn CSS basics (Remote video class)
 
-### [09](./09/) - CSS Layouts & Flexbox
+### [09](./09-css-flexbox/) - CSS Layouts & Flexbox
 Move to external CSS, master the box model, and learn Flexbox for modern layouts
 
 ## Resources

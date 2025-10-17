@@ -85,4 +85,4 @@ Browse GitHub to see what other people are building. Find 2-3 interesting projec
 
 ---
 
-[Class 2 - HTML Basics](../02/) →
+[Class 2 - HTML Basics](../02-hosting-shortcuts/) →

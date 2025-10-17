@@ -647,4 +647,4 @@ These skills are in high demand. Keep building and practicing!
 
 ---
 
-← [Class 8 - About Me and CSS Intro](../08/) | [Class 10 - TBD] →
+← [Class 8 - About Me and CSS Intro](../08-css-intro/) | [Class 10 - TBD] →

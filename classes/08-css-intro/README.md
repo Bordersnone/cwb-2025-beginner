@@ -665,4 +665,4 @@ These are valuable, marketable skills. Keep practicing and be proud of your prog
 
 ---
 
-← [Class 7 - Deploy Your First Page](../07/) | [Class 9 - CSS Layouts & Flexbox](../09/) →
+← [Class 7 - Deploy Your First Page](../07-deploy-page/) | [Class 9 - CSS Layouts & Flexbox](../09-css-flexbox/) →
