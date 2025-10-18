@@ -1,4 +1,4 @@
-# Class 5 - Build, Edit, and Publish Your First Page
+# Class 05 - Build, Edit, and Publish Your First Page
 
 **Lead:** Kiley  
 **Assistant:** Timotej  

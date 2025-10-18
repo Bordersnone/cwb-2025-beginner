@@ -1,4 +1,4 @@
-# Class 1 - Setup and Tools
+# Class 01 - Setup and Tools
 
 **Lead:** Salem  
 **Assistant:** Timotej  

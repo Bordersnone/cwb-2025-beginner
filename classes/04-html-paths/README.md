@@ -1,4 +1,4 @@
-# Class 4 - Media and Links
+# Class 04 - Media and Links
 
 **Lead:** Timotej  
 **Assistant:** -  

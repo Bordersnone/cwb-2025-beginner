@@ -1,4 +1,4 @@
-# Class 6 - Skipped
+# Class 06 - Skipped
 
 This class was canceled due to lack of attendance on October 9, 2025.
 

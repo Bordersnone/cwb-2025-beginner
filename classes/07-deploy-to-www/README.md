@@ -1,4 +1,4 @@
-# Class 7 - Deploy Your First Complete Web Page
+# Class 07 - Deploy Your First Complete Web Page
 
 **Lead:** Kiley  
 **Assistant:** Timotej  

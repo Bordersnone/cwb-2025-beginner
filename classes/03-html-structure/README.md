@@ -1,4 +1,4 @@
-# Class 3 - HTML Structure
+# Class 03 - HTML Structure
 
 **Lead:** Timotej  
 **Assistant:** -  

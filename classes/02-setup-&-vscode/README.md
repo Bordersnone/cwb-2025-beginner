@@ -1,4 +1,4 @@
-# Class 2 - HTML Basics
+# Class 02 - HTML Basics
 
 **Lead:** Timotej  
 **Assistant:** -  

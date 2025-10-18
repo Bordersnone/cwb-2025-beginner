@@ -1,4 +1,4 @@
-# Class 9 - External CSS, Layouts & Flexbox
+# Class 09 - External CSS, Layouts & Flexbox
 
 **Lead:** Timotej  
 **Date:** October 21, 2025

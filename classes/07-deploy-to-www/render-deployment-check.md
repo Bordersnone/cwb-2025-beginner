@@ -1,6 +1,6 @@
 # Render Deployment Check
 
-This guide will help you confirm that your Render deployment is set up correctly and working.
+This guide will help you confirm that your Render deployment is set up correctly and working. Ensuring your website will be deployed to the WWW and be publicly available under the render subdomain link assigned to your repository or project on Render Cloud Application Platform.
 
 ## Step 1: Check Your GitHub Repository
 
