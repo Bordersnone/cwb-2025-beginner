@@ -799,4 +799,4 @@ These skills form the foundation of all modern CSS layouts. Master these and you
 
 ## 🔗 Class Navigation
 
-← [Class 09 - Intro to Flexbox & Layout Techniques](../09-css-layouts/README.md) | [Class 11 - TBD] →
+← [Class 09 - Intro to Flexbox & Layout Techniques](../09-css-layouts/README.md) | [Class 11 - CSS Grid & Responsive Design](../11-css-grid-responsive/README.md) →
