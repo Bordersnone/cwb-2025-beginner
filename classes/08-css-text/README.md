@@ -357,3 +357,9 @@ The work you're doing today is exactly what professional web developers do:
 
 These are valuable, marketable skills. Keep practicing and be proud of your progress!
 
+---
+
+## 🔗 Class Navigation
+
+← [Class 07 - Deploy Your First Complete Web Page](../07-deploy-to-www/README.md) | [Class 09 - External CSS, Layouts & Flexbox](../09-css-layouts/README.md) →
+
