@@ -32,34 +32,101 @@
 
 **Focus:** How CSS targets elements and how declarations are parsed and applied.
 
-#### Key Concepts
-- **Rule structure** – `selector { property: value; }`  
-  Example used: `.red-text { color: red; font-size: 14px; }`
-- **Selectors** – element (`p`), class (`.red-text`), id (`#sfaskf421`), descendant (`nav a`), compound (`.btn-util.btn-outline-red`)
-- **Where CSS can live** – external stylesheet, `<style>` in `<head>`, inline `style=""` on elements (discouraged for maintainability)
-- **Cascade & order** – later declarations win when specificity ties; demonstrated with duplicate `color` in the same inline style of `<span class="... red-text" style="color: #23da12; color: red; font-size: 12px;">`
-- **Specificity** – inline > id > class/attribute/pseudo-class > element; more selectors increase weight (`.btn-util.btn-outline-red` beats `.btn-nav .btn-outline-red` for the same element)
-- **Inheritance** – many text properties inherit (e.g., `color`, `font-family`, `line-height`), while layout/border generally do not
+#### CSS Rule Structure
+
+**Syntax:** `selector { property: value; }`  
+**Example used in class:** `.red-text { color: red; font-size: 14px; }`
+
+#### Selectors
+
+- **Element selector** → `p` (targets all `<p>` elements)
+- **Class selector** → `.red-text` (targets elements with `class="red-text"`)
+- **ID selector** → `#sfaskf421` (targets element with `id="sfaskf421"`)
+- **Descendant selector** → `nav a` (targets `<a>` elements inside `<nav>`)
+- **Compound selector** → `.btn-util.btn-outline-red` (targets elements with both classes)
+
+#### Where CSS Can Live
+
+1. **External stylesheet** – separate `.css` file (_best for large sites_)
+2. **Internal styles** – `<style>` tag in `<head>` (_good for single-page sites_)
+3. **Inline styles** – `style=""` attribute on elements (_discouraged for maintainability_)
+
+#### The Cascade & Specificity
+
+**Cascade:** This means that the declaration that happens latest is the one that gets applied when there is a tie in specificity. This is demonstrated with duplicate `color` properties being declared in the same inline style below:
+```html
+<span class="... red-text" style="color: #23da12; color: red; font-size: 12px;">
+```
+→ The second `color: red` declaration wins!
+
+**Specificity hierarchy:** `inline styles` > `#id` > `.class` / `[attribute]` / `:pseudo-class` > `element`
+
+**Example:** `.btn-util.btn-outline-red` (2 classes) beats `.btn-nav .btn-outline-red` (1 class + 1 descendant) for the same element
+
+#### Inheritance
+
+- **Properties that inherit:** `color`, `font-family`, `line-height`, and most text properties
+- **Properties that DON'T inherit:** layout properties (`margin`, `padding`), borders, backgrounds
 
 ### Topic 2: Text & Font Properties
 
 **Focus:** Practical tour of common properties using the snippet.
 
-#### Key Concepts
-- **`color`** – text color; demonstrated conflicts between `.red-text`, inline styles, and `section[style="color: blue"]`
-- **`font-family`** – stacks and fallbacks; example: global `p { font-family: sans-serif; }` vs `.p-with-serif-font { font-family: 'Times New Roman', Times, serif; }`
-- **`font-size`** – units (`px`, `rem`, `em`, `%`); observed inline `font-size: 12px` overriding class `14px`
-- **`font-weight`** – numeric (100–900) or keywords; example: `#sfaskf421 { font-weight: 600; }`
-- **`font-style`** – `normal | italic | oblique` (not shown; discussed)
-- **`line-height`** – unitless recommended; example used `line-height: 50px` on `#sfaskf421` and why unitless scales better
-- **`letter-spacing`** – used in `.btn-nav { letter-spacing: 10px; }`
-- **`word-spacing`** – discussed (not shown)
-- **`text-align`** – `left | right | center | justify`; example: `#horizontally-aligned-paragraph { text-align: center; }`
-- **`vertical-align`** – inline-level/baseline alignment; example shows `vertical-align: top` on `#sfaskf421` and why it only affects inline/inline-block/table-cell contexts
-- **`text-decoration`** – control links underlines; discussed how to override `nav a { color: red; }` and add `text-decoration`
-- **`text-transform`** – `uppercase | lowercase | capitalize`; discussed (not shown)
-- **`white-space`** – collapse/wrapping behavior; `.btn-nav { white-space: nowrap; }` example
-- **`text-shadow` vs `box-shadow`** – snippet has a commented `text-shadow` and an active `box-shadow` on text; clarified that `box-shadow` draws a box shadow around the element box, not the glyphs
+#### Font & Color Properties
+
+**`color`** – Controls text color  
+→ Demonstrated conflicts between `.red-text`, inline styles, and `section[style="color: blue"]`
+
+**`font-family`** – Font stacks and fallbacks  
+→ Example: global `p { font-family: sans-serif; }`  
+→ vs `.p-with-serif-font { font-family: 'Times New Roman', Times, serif; }`
+
+**`font-size`** – Text size with various units (`px`, `rem`, `em`, `%`)  
+→ Observed inline `font-size: 12px` overriding class `14px`
+
+**`font-weight`** – Thickness of text (100–900 or keywords like `bold`)  
+→ Example: `#sfaskf421 { font-weight: 600; }`
+
+**`font-style`** – Text style: `normal` | `italic` | `oblique`  
+→ Discussed but not shown in snippet
+
+**`line-height`** – Spacing between lines of text  
+→ Example used: `line-height: 50px` on `#sfaskf421`  
+→ **Best practice:** Use unitless values (e.g., `1.6`) for better scaling
+
+#### Spacing Properties
+
+**`letter-spacing`** – Space between characters  
+→ Example: `.btn-nav { letter-spacing: 10px; }`
+
+**`word-spacing`** – Space between words  
+→ Discussed but not demonstrated
+
+#### Text Alignment & Formatting
+
+**`text-align`** – Horizontal alignment: `left` | `right` | `center` | `justify`  
+→ Example: `#horizontally-aligned-paragraph { text-align: center; }`
+
+**`vertical-align`** – Inline-level/baseline alignment  
+→ Example: `vertical-align: top` on `#sfaskf421`  
+→ **Important:** Only affects `inline`, `inline-block`, and `table-cell` elements
+
+**`text-decoration`** – Controls underlines, overlines, strikethrough  
+→ Discussed how to override `nav a { color: red; }` and customize link underlines
+
+**`text-transform`** – Change text case: `uppercase` | `lowercase` | `capitalize`  
+→ Discussed but not shown in snippet
+
+**`white-space`** – Controls text wrapping and whitespace collapse  
+→ Example: `.btn-nav { white-space: nowrap; }` prevents line breaks
+
+#### Shadows
+
+**`text-shadow` vs `box-shadow`**  
+→ Snippet has both: commented `text-shadow` and active `box-shadow`  
+→ **Key difference:**  
+  - `text-shadow` → shadow on the actual text glyphs  
+  - `box-shadow` → shadow around the element's box
 
 ### 💡 Key Moments from Class
 
