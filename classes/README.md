@@ -45,11 +45,17 @@ Class was canceled due to lack of attendance (October 9, 2025)
 ### [07](./07-deploy-to-www/) - Deploy Your First Page
 Complete Render deployment and build your first complete HTML page
 
-### [08](./08-css-text/) - About Me Page & CSS Intro
-Build your complete About Me page and learn CSS basics (Remote video class)
+### [08](./08-css-text/) - Intro to CSS & Text/Font Properties
+Introduction to CSS fundamentals, browser DevTools, text/font properties, and navigation patterns
 
-### [09](./09-css-layouts/) - CSS Layouts & Flexbox
-Move to external CSS, master the box model, and learn Flexbox for modern layouts
+### [09](./09-css-layouts/) - Intro to Flexbox & Layout Techniques
+Introduction to Flexbox for modern layouts, position sticky, and overflow handling
+
+### [10](./10-css-layouts-2/) - Advanced Flexbox & Box Model
+Deep dive into flex properties, complete box model coverage, display properties, and CSS units
+
+### [11](./11-css-grid-responsive/) - CSS Grid & Responsive Design
+CSS Grid for two-dimensional layouts, media queries, responsive design, and CSS variables
 
 ## Resources
 
