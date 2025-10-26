@@ -8,7 +8,7 @@
 
 ## 📹 Class Recording
 
-> **🎥 [Watch Class Recording](#)** ← *Add link here when available*
+> **🎥 [Watch Class Recording](https://app.read.ai/analytics/meetings/01K88WSZ6S004VV60B3R7RPJ1S)**
 >
 > Missed class or want to review? Watch the full recording to see advanced Flexbox and Box Model concepts demonstrated live.
 
