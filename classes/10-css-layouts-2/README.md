@@ -44,6 +44,8 @@
 
 **Focus:** Understanding the `flex` shorthand and how flex items grow, shrink, and size themselves.
 
+📺 **Watch if you need help:** [Understanding Flex-Grow, Flex-Shrink, Flex-Basis (12 min)](https://www.youtube.com/watch?v=G7EIAgfkhmg)
+
 #### The `flex` Shorthand
 
 **Syntax:** `flex: [flex-grow] [flex-shrink] [flex-basis]`
@@ -94,6 +96,8 @@ Example: `flex: 1 1 0` means:
 
 **Focus:** Controlling horizontal and vertical alignment of flex items.
 
+📺 **Watch if you need help:** [Flexbox Alignment (8 min)](https://www.youtube.com/watch?v=EFmVzv2XJ0g)
+
 #### justify-content (Main Axis - usually horizontal)
 
 Controls spacing **between** and **around** items:
@@ -140,6 +144,8 @@ Modern way to add spacing between flex items:
 ### Topic 3: The CSS Box Model
 
 **Focus:** Understanding how spacing, borders, and sizing work on all elements.
+
+📺 **Watch if you need help:** [CSS Box Model Explained (8 min)](https://www.youtube.com/watch?v=rIO5326FgPE)
 
 #### Box Model Components
 
@@ -231,9 +237,13 @@ Adds a visible edge around padding:
 - `double` - Double line
 - `none` - No border
 
+📺 **Watch if you need help:** [Box-Sizing Explained (6 min)](https://www.youtube.com/watch?v=WlGQdgy-M6w)
+
 ### Topic 4: Display Properties
 
 **Focus:** Understanding how different display values affect element behavior.
+
+📺 **Watch if you need help:** [Block vs Inline vs Inline-Block (10 min)](https://www.youtube.com/watch?v=x_i2gga-sYg)
 
 #### display: block
 
@@ -291,6 +301,8 @@ Adds a visible edge around padding:
 ```
 
 → Demonstrated in `inline-block.html`
+
+📺 **Also helpful:** [CSS Display Property (12 min)](https://www.youtube.com/watch?v=Qf-wVa9y9V4)
 
 #### display: flex
 
@@ -441,6 +453,8 @@ Before building your own, understand what was demonstrated.
 
 Create a row of cards that resize appropriately.
 
+📺 **Watch first:** [Flexbox Tutorial (30 min)](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
 **Goal:** 3 cards that share space equally, but one can be emphasized.
 
 ```html
@@ -501,7 +515,9 @@ Create a row of cards that resize appropriately.
 
 Create boxes to understand padding, margin, and borders.
 
-**Steps:**
+📺 **Watch first:** [Box Model Deep Dive (15 min)](https://www.youtube.com/watch?v=Azfj1efPAH0)
+
+**Steps:
 1. Create an HTML file with 3 div's
 2. Give each a different background color
 3. Experiment with:
@@ -535,6 +551,8 @@ Create boxes to understand padding, margin, and borders.
 
 See the difference between display values.
 
+📺 **Watch if you need help:** [CSS Display Property (12 min)](https://www.youtube.com/watch?v=Qf-wVa9y9V4)
+
 ```html
 <div class="container">
     <span class="inline">Inline</span>
@@ -564,6 +582,8 @@ See the difference between display values.
 ### Exercise 5: Navigation with Flexbox (20 minutes)
 
 Build a proper navigation using `<ul>`.
+
+📺 **Watch if you need help:** [Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
 
 ```html
 <nav>
