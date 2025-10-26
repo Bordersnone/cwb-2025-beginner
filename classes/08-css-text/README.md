@@ -8,7 +8,7 @@
 
 ## 📹 Class Recording
 
-> **🎥 [Watch Class Recording](#)** ← *Add link here when available*
+> **🎥 [Watch Class Recording](https://app.read.ai/analytics/meetings/01K7PW0FV8P2M6FDQJVVNAW3TG)**
 >
 > Missed class or want to review? Watch the full recording to see all the concepts demonstrated live.
 
