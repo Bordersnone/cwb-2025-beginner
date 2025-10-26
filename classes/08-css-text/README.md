@@ -2,7 +2,7 @@
 
 **Lead:** Timotej  
 **Assistant:** Kiley  
-**Date:** 18 Oct 2025
+**Date:** 16 Oct 2025
 
 ---
 
@@ -17,6 +17,10 @@
 ## 📚 Quick Links
 
 - [What We Covered](#-what-we-actually-covered)
+  - [CSS Basics & Syntax](#topic-1-css-basics--syntax)
+  - [Text & Font Properties](#topic-2-text--font-properties)
+  - [Browser DevTools](#topic-3-browser-developer-tools-devtools)
+  - [Navigation Types](#topic-4-navigation-types)
 - [Homework & Practice](#-homework--practice)
 - [Learning Resources](#-learning-resources)
 - [What You Should Know](#-what-you-should-know-after-this-class)
@@ -26,7 +30,7 @@
 
 ## 📝 What We Actually Covered
 
-> **Overview:** Introduced CSS, the cascade/inheritance/specificity model, CSS syntax, and the most common text & font properties. Used the provided HTML snippet to demonstrate inline vs class vs id styles and typical pitfalls.
+> **Overview:** Introduced CSS fundamentals including syntax, selectors, cascade, and specificity. Extensive hands-on practice with browser DevTools for live HTML/CSS editing. Covered text and font properties, and discussed different website navigation patterns (Hub and Spoke vs Tree navigation).
 
 ### Topic 1: CSS Basics & Syntax
 
@@ -47,9 +51,9 @@
 
 #### Where CSS Can Live
 
-1. **External stylesheet** – separate `.css` file (_best for large sites_)
-2. **Internal styles** – `<style>` tag in `<head>` (_good for single-page sites_)
-3. **Inline styles** – `style=""` attribute on elements (_discouraged for maintainability_)
+1. **External stylesheet** – separate `.css` file (_best for large sites, not covered in this class_)
+2. **Internal styles** – `<style>` tag in `<head>` (_what we used in class_)
+3. **Inline styles** – `style=""` attribute on elements (_demonstrated but discouraged for maintainability_)
 
 #### The Cascade & Specificity
 
@@ -128,9 +132,135 @@
   - `text-shadow` → shadow on the actual text glyphs  
   - `box-shadow` → shadow around the element's box
 
+### Topic 3: Browser Developer Tools (DevTools)
+
+**Focus:** Using browser inspection tools to experiment with HTML and CSS live.
+
+📺 **Watch if you need help:** [Chrome DevTools Tutorial (10 min)](https://www.youtube.com/watch?v=x4q86IjJFag)
+
+#### What Are DevTools?
+
+Every modern browser has built-in developer tools that let you:
+- Inspect and modify HTML elements live
+- Test CSS properties in real-time
+- Debug layout issues
+- Learn from other websites
+
+#### How to Access DevTools
+
+**Method 1:** Right-click on any element → Select **"Inspect"**  
+**Method 2:** Press `F12` (Windows/Linux) or `Cmd+Option+I` (Mac)
+
+#### View Page Source vs Inspect
+
+**View Page Source:**
+- Shows the raw HTML file
+- Read-only, can't make changes
+- Access: Right-click → "View Page Source"
+
+**Inspect Element:**
+- Shows live, interactive HTML/CSS
+- Can modify and see changes immediately
+- Changes are temporary (disappear on refresh)
+- **This is what you'll use most!**
+
+#### Using the Inspector
+
+**Live editing HTML:**
+- Click on any element to select it
+- Right-click → "Edit as HTML"
+- Add, modify, or delete content
+- See changes instantly
+
+**Live editing CSS:**
+- Select an element
+- In the Styles panel, modify existing properties
+- Add new properties (e.g., `background-color: green;`)
+- Toggle properties on/off with checkboxes
+- Changes update in real-time
+
+**Example from class:**
+```css
+/* Added live in DevTools */
+.my-element {
+    color: red;
+    border: 2px solid black;
+    background-color: green;
+}
+```
+
+→ Toggle each property on/off to see the effect  
+→ Change values (e.g., `border: 5px solid black;`) and see it update  
+→ **Remember:** Refresh the page and all changes disappear!
+
+#### Why Use DevTools?
+
+- **Experiment safely** - Try things without breaking your code
+- **Learn from examples** - Inspect any website to see how it's built
+- **Debug problems** - See which styles are being applied and why
+- **Test quickly** - No need to save/refresh cycle while experimenting
+
+**Pro tip from class:** Kiley demonstrated changing her bank balance to $50 million in DevTools - looked real on screen, but refreshing brought it back to reality! This shows DevTools change what you SEE, not the actual files.
+
+### Topic 4: Navigation Types
+
+**Focus:** Understanding different website navigation patterns.
+
+#### Hub and Spoke Navigation
+
+**Pattern:** Central hub page with links to separate sub-sites that don't connect back.
+
+**Example:** Microsoft Azure
+- Main Azure page is the "hub"
+- Clicking on a service (e.g., Virtual Machines) takes you to a separate sub-site
+- No navigation to get back to the main hub
+- Must use browser back button or bookmark
+
+**When to use:**
+- When navigation would become too large/cluttered
+- For distinct sub-applications or modules
+- When each section is independent
+
+**Downside:** Can hurt user experience if overused
+
+#### Tree Navigation
+
+**Pattern:** Hierarchical navigation that's consistent across all pages.
+
+**Example:** Most standard websites
+- Navigation menu appears on every page
+- Users can always access main sections
+- Clear hierarchy: Home → About → Sub-pages
+
+**When to use:**
+- Standard websites with related content
+- When users need to navigate between sections frequently
+- Most common navigation pattern
+
+**Structure:**
+```
+Homepage
+├── About Us
+├── Services
+│   ├── Web Design
+│   └── Development
+├── Support
+└── Contact
+```
+
+→ Navigation menu stays visible on all pages  
+→ Users always know where they are and how to get elsewhere
+
+#### Hybrid Navigation
+
+Combines both patterns - mentioned briefly in class as another option.
+
 ### 💡 Key Moments from Class
 
-- ✅ **Specificity conflict resolved**: why inline `style="color: red"` wins over `.red-text { color: red }` and `section[style="color: blue"]`
+- ✅ **Browser inspector is your friend**: Emphasized multiple times - most useful tool for web development
+- ✅ **Inspect vs View Source**: Inspect lets you edit live, View Source is read-only
+- ✅ **Temporary changes**: All DevTools edits disappear on refresh - safe to experiment!
+- ✅ **Specificity conflict resolved**: why inline `style="color: red"` wins over `.red-text { color: red }`
 - ✅ **Duplicate declarations**: last declaration wins within the same block (`color: #23da12; color: red;`)
 - ✅ **Inheritance boundaries**: `nav a { color: red; }` affects links inside `<nav>` but not elsewhere
 
@@ -297,23 +427,25 @@ Test which properties inherit and which don't:
 
 - ✅ Understand CSS syntax: `selector { property: value; }`
 - ✅ Know the different types of selectors: element, class, id, descendant, compound
-- ✅ Understand where CSS can live: inline, internal (`<style>`), external (`.css` file)
+- ✅ Understand where CSS can live: inline styles and internal `<style>` tags (external files covered later)
 - ✅ Understand the cascade: later declarations win when specificity ties
 - ✅ Understand specificity: inline > id > class > element
 - ✅ Know which properties inherit and which don't
+- ✅ **Use browser DevTools to inspect and modify HTML/CSS live**
+- ✅ **Understand the difference between "View Source" and "Inspect"**
 - ✅ Be comfortable with text & font properties: `color`, `font-family`, `font-size`, `font-weight`, `line-height`
 - ✅ Understand alignment: `text-align` vs `vertical-align`
-- ✅ Know how to use browser DevTools to inspect and debug CSS
+- ✅ Know the difference between Hub and Spoke vs Tree navigation patterns
 
 ---
 
 ## 🔜 Coming Up Next
 
-**Class 09 - CSS Layouts:**
-- CSS Box Model (margin, padding, border)
-- Display properties and positioning  
-- Introduction to modern layouts
-- More advanced styling techniques
+**Class 09 - Intro to Flexbox & Layout Techniques:**
+- Introduction to Flexbox for modern layouts
+- Position sticky for persistent navigation
+- Overflow handling for scrollable containers
+- Building practical sidebar layouts
 
 ---
 
