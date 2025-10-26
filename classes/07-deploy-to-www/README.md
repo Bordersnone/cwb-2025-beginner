@@ -157,7 +157,7 @@ Your "About Me" page must include:
 </html>
 ```
 
-**Full Guide:** [html-about-page.md](../01-setup-html/steps/html-about-page.md)
+**Full Guide:** [html-about-page.md](../01-most-common-tags/steps/html-about-page.md)
 
 ---
 
@@ -199,7 +199,7 @@ Enhance your page with one of these:
 3. **Add a video** - Embed a YouTube video you like
 4. **Add a form** - Simple contact form (won't send yet, just practice)
 
-**Ideas & Examples:** [mini-challenge.md](../01-setup-html/steps/mini-challenge.md)
+**Ideas & Examples:** [mini-challenge.md](../01-most-common-tags/steps/mini-challenge.md)
 
 ---
 
@@ -278,12 +278,12 @@ Notice how the status changes at each step!
 ### Guides for Today
 - [Render Deployment Check](./render-deployment-check.md) - Troubleshooting deployment
 - [Git Workflow Guide](../05-git-workflow/git-workflow.md) - Detailed Git commands
-- [HTML About Page](../01-setup-html/steps/html-about-page.md) - Building your page
-- [Mini-Challenge](../01-setup-html/steps/mini-challenge.md) - Enhancement ideas
+- [HTML About Page](../01-most-common-tags/steps/html-about-page.md) - Building your page
+- [Mini-Challenge](../01-most-common-tags/steps/mini-challenge.md) - Enhancement ideas
 
 ### Tools Reference
-- [push.bat script](../02-hosting-shortcuts/push.bat) - Automation script
-- [VS Code Shortcuts](../02-hosting-shortcuts/vscode-shorcuts.txt) - Keyboard shortcuts
+- [push.bat script](../02-setup-&-vscode/push.bat) - Automation script
+- [VS Code Shortcuts](../02-setup-&-vscode/vscode-shorcuts.txt) - Keyboard shortcuts
 
 ### Online References
 - [MDN - HTML Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
@@ -333,4 +333,4 @@ Your site might be simple now, but:
 
 ---
 
-← [Class 5 - Git & Build, Edit, Publish](../05-git-workflow/) | [Class 8 - About Me Page & CSS Intro](../08-css-intro/) →
+← [Class 5 - Git & Build, Edit, Publish](../05-git-workflow/) | [Class 8 - About Me Page & CSS Intro](../08-css-text/) →

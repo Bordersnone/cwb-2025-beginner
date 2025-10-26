@@ -265,4 +265,4 @@ Before you consider the challenge complete:
 
 ---
 
-[← Back to Class 7](../../07-deploy-page/)
+[← Back to Class 7](../../07-deploy-to-www/)

@@ -79,4 +79,4 @@ Write a short story or article using:
 
 ---
 
-← [Class 1 - Setup and Tools](../01-setup-html/) | [Class 3 - HTML Structure](../03-html-structure/) →
+← [Class 1 - Setup and Tools](../01-most-common-tags/) | [Class 3 - HTML Structure](../03-html-structure/) →

@@ -20,15 +20,15 @@ This is a hands-on web development course that takes students from zero to build
 
 | # | Date | Class | Lead | Assistant |
 |---|------|--------|------|------------|
-| 1 | 23-Sep-2025 | [HTML Syntax & Most Common Tags](/classes/01-setup-html/) | Salem | Timotej |
-| 2 | 25-Sep-2025 | [Hosting Setup & VS Shortcuts](/classes/02-hosting-shortcuts/) | Timotej | - |
+| 1 | 23-Sep-2025 | [HTML Syntax & Most Common Tags](/classes/01-most-common-tags/) | Salem | Timotej |
+| 2 | 25-Sep-2025 | [Hosting Setup & VS Shortcuts](/classes/02-setup-&-vscode/) | Timotej | - |
 | 3 | 30-Sep-2025 | [HTML Structure](/classes/03-html-structure/) | Timotej | - |
-| 4 | 2-Oct-2025 | [Remote, Absolute & Relative Paths](/classes/04-media-links/) | Timotej | - |
+| 4 | 2-Oct-2025 | [Remote, Absolute & Relative Paths](/classes/04-html-paths/) | Timotej | - |
 | 5 | 7-Oct-2025 | [Git & Build, Edit, Publish](/classes/05-git-workflow/) | Kiley | Timotej |
 | 6 | ~~9-Oct-2025~~ | ~~Skipped~~ | - | - |
-| 7 | 14-Oct-2025 | [Deploy Your First Page](/classes/07-deploy-page/) | Kiley | Timotej |
-| 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/08-css-intro/) | Timotej | Kiley |
-| 9 | 21-Oct-2025 | [CSS Layouts & Flexbox](/classes/09-css-flexbox/) | Timotej | - |
+| 7 | 14-Oct-2025 | [Deploy Your First Page](/classes/07-deploy-to-www/) | Kiley | Timotej |
+| 8 | 16-Oct-2025 | [About Me Page & CSS Intro](/classes/08-css-text/) | Timotej | Kiley |
+| 9 | 21-Oct-2025 | [CSS Layouts & Flexbox](/classes/09-css-layouts/) | Timotej | - |
 
 ## 🚀 Quick Links
 
