@@ -1,6 +1,7 @@
 # Class 09 - Intro to Flexbox & Layout Techniques
 
-**Lead:** Timotej  
+**Lead:** Timotej
+**Assistant:** None
 **Date:** October 21, 2025
 
 ---
