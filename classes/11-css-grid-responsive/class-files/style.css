@@ -1,0 +1,15 @@
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.photo {
+  background: purple;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
