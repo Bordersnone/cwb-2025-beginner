@@ -805,4 +805,4 @@ These skills are what professional developers use every single day. You can now 
 
 ## 🔗 Class Navigation
 
-← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 12 - TBD] →
+← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 12 - CSS Fundamentals Review & Practice](../12-css-fundamentals-review/README.md) →
