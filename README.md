@@ -30,8 +30,9 @@ This is a hands-on web development course that takes students from zero to build
 | 8 | 16-Oct-2025 | [Intro to CSS & Text/Font Properties](/classes/08-css-text/) | Timotej | Kiley |
 | 9 | 21-Oct-2025 | [Intro to Flexbox & Layout Techniques](/classes/09-css-layouts/) | Timotej | - |
 | 10 | 23-Oct-2025 | [Advanced Flexbox & Box Model](/classes/10-css-layouts-2/) | Timotej | - |
-| 11 | 28-Oct-2025 | [CSS Grid & Responsive Design](/classes/11-css-grid-responsive/) | Salem | Timotej |
+| 11 | ~~28-Oct-2025~~ | ~~[CANCELED](/classes/11-css-grid-responsive/)~~ | ~~Salem~~ | ~~Timotej~~ |
 | 12 | 30-Oct-2025 | [CSS Fundamentals Review & Practice](/classes/12-css-fundamentals-review/) | Kiley | Timotej |
+| 13 | 4-Nov-2025 | [CSS Grid & Responsive Design](/classes/13-css-grid-responsive/) | Salem | Timotej |
 
 ## 🚀 Quick Links
 
