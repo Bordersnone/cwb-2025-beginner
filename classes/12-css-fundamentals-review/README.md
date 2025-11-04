@@ -551,4 +551,4 @@ Today is about making sure you really *get* CSS fundamentals. Don't rush. Ask qu
 
 ---
 
-← [Class 11 - CSS Grid (Canceled)](../11-css-grid-responsive/README.md) | [Class 13 - Coming Soon] →
+← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 13 - CSS Grid & Responsive Design](../13-css-grid-responsive/README.md) →

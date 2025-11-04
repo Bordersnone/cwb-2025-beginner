@@ -1,34 +1,22 @@
-# Class 11 - CSS Grid & Responsive Design
+# Class 13 - CSS Grid & Responsive Design
 
 **Lead:** Salem  
 **Assistant:** Timotej  
-**Date:** October 28, 2025
+**Date:** November 4, 2025
 
 ---
 
-## ⚠️ Class Status: CANCELED
+## 📋 Background
 
-**This class was canceled due to low attendance.** Only one student attended, so instead of conducting the full class, a one-on-one support session was held to review CSS fundamentals.
-
-### What Happened Instead
-
-- Review of inline, internal, and external CSS
-- Introduction to browser DevTools and inspect element
-- Clarification of CSS basics
-
-### When Will This Material Be Covered?
-
-The CSS Grid and Responsive Design content originally planned for this class will be **rescheduled for Class 13**. 
-
-**Class 12** will focus on reinforcing CSS fundamentals before moving to advanced layout topics.
+This content was originally prepared for Class 11 (October 28, 2025), but that class was canceled due to low attendance. Class 12 focused on reinforcing CSS fundamentals to ensure students were ready for advanced layout topics. Now that students have a solid foundation, we're ready to dive into CSS Grid!
 
 ---
 
-## 📂 Prepared Materials
+## 📂 Class Materials
 
 > **📁 [View Example Files](./class-files/)**
 >
-> Salem prepared comprehensive examples for CSS Grid and responsive design. These materials are available for self-study, but we'll go through them together in Class 13.
+> Comprehensive examples for CSS Grid and responsive design. We'll work through these together in today's class!
 
 **What's Available:**
 - **`example1.html`** - Responsive photo gallery with auto-fit
@@ -36,13 +24,13 @@ The CSS Grid and Responsive Design content originally planned for this class wil
 - **`example3.html`** - Grid item placement examples
 - **`task1.html`, `task2.html`, `task3.html`** - Practice exercises
 
-Feel free to explore these files on your own, but don't worry if you don't understand them yet - we'll learn this together in Class 13!
+Feel free to explore these files on your own, but don't worry if you don't understand them yet - we'll learn this together in today's class!
 
 ---
 
-## 📚 Original Plan (Moved to Class 13)
+## 📚 What We'll Cover Today
 
-> **Overview:** This material is now scheduled for Class 13. Content includes CSS Grid for two-dimensional layouts, media queries for responsive design, modern layout patterns, and CSS custom properties (variables) for maintainable code.
+> **Overview:** This class covers CSS Grid for two-dimensional layouts, media queries for responsive design, modern layout patterns, and CSS custom properties (variables) for maintainable code.
 
 ### Topic 1: CSS Grid Fundamentals
 
@@ -805,4 +793,4 @@ These skills are what professional developers use every single day. You can now 
 
 ## 🔗 Class Navigation
 
-← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 12 - CSS Fundamentals Review & Practice](../12-css-fundamentals-review/README.md) →
+← [Class 12 - CSS Fundamentals Review & Practice](../12-css-fundamentals-review/README.md) | [Class 14 - Coming Soon] →

@@ -54,11 +54,14 @@ Introduction to Flexbox for modern layouts, position sticky, and overflow handli
 ### [10](./10-css-layouts-2/) - Advanced Flexbox & Box Model
 Deep dive into flex properties, complete box model coverage, display properties, and CSS units
 
-### [11](./11-css-grid-responsive/) - CSS Grid & Responsive Design ⚠️ CANCELED
-Class was canceled due to low attendance. Material will be covered in Class 13.
+### [11 - CANCELED](./11-css-grid-responsive/) ⚠️
+Class was canceled due to low attendance (October 28, 2025). Content rescheduled for Class 13.
 
-### [12](./12-css-fundamentals-review/) - CSS Fundamentals Review & Quiz
-Baseline knowledge quiz and deep dive into CSS cascade, specificity, hover effects, flexbox review, and media queries basics
+### [12](./12-css-fundamentals-review/) - CSS Fundamentals Review & Practice
+Baseline knowledge quiz and interactive review of CSS fundamentals: cascade, specificity, box model, Flexbox, DevTools, and testing methodology
+
+### [13](./13-css-grid-responsive/) - CSS Grid & Responsive Design
+CSS Grid for 2D layouts, auto-fit/minmax patterns, media queries, CSS custom properties, and modern responsive layout techniques
 
 ## Resources
 
