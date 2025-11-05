@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Navigation Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #333;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #4CAF50;
+        }
+        
+        /* Demo content */
+        .content {
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">MyBrand</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <h1>Flexbox Navigation Bar Example</h1>
+        <p>This navigation uses Flexbox to create a professional layout.</p>
+        
+        <h2>Key Flexbox Properties Used:</h2>
+        <ul>
+            <li><code>display: flex</code> - Makes nav a flex container</li>
+            <li><code>justify-content: space-between</code> - Pushes logo left, links right</li>
+            <li><code>align-items: center</code> - Vertically centers items</li>
+            <li><code>gap: 30px</code> - Adds space between nav links</li>
+        </ul>
+        
+        <h2>Try Experimenting:</h2>
+        <ul>
+            <li>Change <code>space-between</code> to <code>space-around</code> or <code>center</code></li>
+            <li>Change <code>gap</code> value to see different spacing</li>
+            <li>Add more nav links</li>
+            <li>Resize the window to see responsive behavior</li>
+        </ul>
+    </div>
+</body>
+</html>

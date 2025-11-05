@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Card Grid Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            padding: 40px;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .card {
+            flex: 1 1 250px;  /* grow, shrink, minimum basis */
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .card h3 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .explanation {
+            background: white;
+            padding: 20px;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flexbox Card Grid Example</h1>
+        
+        <div class="card-container">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>This card will wrap to a new line when the screen gets too narrow. Try resizing your browser window!</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>The minimum width is 250px. Each card will grow to fill available space equally.</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Notice how cards maintain consistent sizing and wrap responsively without media queries!</p>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Hover effects are added with CSS transitions for a smooth, professional feel.</p>
+            </div>
+            <div class="card">
+                <h3>Card 5</h3>
+                <p>This pattern is perfect for product grids, blog posts, or any content that needs to be displayed in a grid.</p>
+            </div>
+            <div class="card">
+                <h3>Card 6</h3>
+                <p>The gap property makes spacing between items easy - no need for complex margin calculations!</p>
+            </div>
+        </div>
+        
+        <div class="explanation">
+            <h2>How This Works</h2>
+            <p><strong>Key CSS:</strong></p>
+            <ul style="margin: 15px 0; padding-left: 20px; line-height: 1.8;">
+                <li><code>display: flex</code> - Makes the container a flexbox</li>
+                <li><code>flex-wrap: wrap</code> - Allows items to wrap to next line</li>
+                <li><code>gap: 20px</code> - Adds space between items</li>
+                <li><code>flex: 1 1 250px</code> on cards:
+                    <ul style="margin-top: 8px;">
+                        <li><code>1</code> = can grow to fill space</li>
+                        <li><code>1</code> = can shrink if needed</li>
+                        <li><code>250px</code> = minimum width before wrapping</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p><strong>Try Experimenting:</strong></p>
+            <ul style="margin: 15px 0; padding-left: 20px; line-height: 1.8;">
+                <li>Change <code>flex: 1 1 250px</code> to <code>flex: 1 1 300px</code></li>
+                <li>Add more cards to see how they wrap</li>
+                <li>Resize your browser window</li>
+                <li>Change the gap value</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

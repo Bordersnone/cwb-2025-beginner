@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2: Pricing Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .instructions {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        
+        /* TODO: Style .pricing-container with Flexbox
+         * Requirements:
+         * - Center the cards horizontally
+         * - Add gap between cards
+         * - Make cards equal height
+         */
+        .pricing-container {
+            /* Your code here */
+        }
+        
+        /* TODO: Style .pricing-card
+         * Requirements:
+         * - Fixed width (around 300px)
+         * - Use flexbox to layout internal content
+         * - Button should be at the bottom
+         * - Add hover effect (lift up with shadow)
+         */
+        .pricing-card {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            /* Your code here */
+        }
+        
+        .pricing-card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            font-size: 48px;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 20px 0;
+            flex-grow: 1;  /* Push button to bottom */
+        }
+        
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: #667eea;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+        
+        .featured {
+            border: 3px solid #667eea;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 2: Pricing Cards Challenge</h1>
+    
+    <div class="instructions">
+        <h2>Your Challenge:</h2>
+        <p>Create a pricing card layout where:</p>
+        <ul>
+            <li>Cards are displayed side by side (centered)</li>
+            <li>All cards have equal height</li>
+            <li>The button is always at the bottom of each card</li>
+            <li>Cards have a hover effect (scale up or add shadow)</li>
+            <li>Use flexbox for both the container AND inside each card</li>
+        </ul>
+        <p><strong>Hint:</strong> Use <code>flex-direction: column</code> inside cards and <code>flex-grow: 1</code> on features list</p>
+    </div>
+    
+    <div class="pricing-container">
+        <div class="pricing-card">
+            <h2>Basic</h2>
+            <div class="price">$9</div>
+            <ul class="features">
+                <li>✓ 10 Projects</li>
+                <li>✓ 5 GB Storage</li>
+                <li>✓ Email Support</li>
+            </ul>
+            <a href="#" class="btn">Choose Plan</a>
+        </div>
+        
+        <div class="pricing-card featured">
+            <h2>Pro</h2>
+            <div class="price">$29</div>
+            <ul class="features">
+                <li>✓ Unlimited Projects</li>
+                <li>✓ 50 GB Storage</li>
+                <li>✓ Priority Support</li>
+                <li>✓ Custom Domain</li>
+            </ul>
+            <a href="#" class="btn">Choose Plan</a>
+        </div>
+        
+        <div class="pricing-card">
+            <h2>Enterprise</h2>
+            <div class="price">$99</div>
+            <ul class="features">
+                <li>✓ Unlimited Everything</li>
+                <li>✓ 500 GB Storage</li>
+                <li>✓ 24/7 Support</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Team Management</li>
+            </ul>
+            <a href="#" class="btn">Choose Plan</a>
+        </div>
+    </div>
+</body>
+</html>
