@@ -23,7 +23,7 @@ Class 12 was dedicated to reinforcing CSS fundamentals to ensure all students ha
 ## 🔗 Where to Go
 
 **Looking for CSS Grid content?**  
-→ [Go to Class 13 - CSS Grid & Responsive Design](../13-css-grid-responsive/README.md)
+→ CSS Grid content will be covered in a future class. See [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) for now.
 
 **Want to review fundamentals first?**  
 → [Go to Class 12 - CSS Fundamentals Review](../12-css-fundamentals-review/README.md)

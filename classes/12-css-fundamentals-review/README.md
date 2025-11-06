@@ -551,4 +551,4 @@ Today is about making sure you really *get* CSS fundamentals. Don't rush. Ask qu
 
 ---
 
-← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 13 - CSS Grid & Responsive Design](../13-css-grid-responsive/README.md) →
+← [Class 10 - Advanced Flexbox & Box Model](../10-css-layouts-2/README.md) | [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) →

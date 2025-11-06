@@ -60,7 +60,7 @@ Class was canceled due to low attendance (October 28, 2025). Content rescheduled
 ### [12](./12-css-fundamentals-review/) - CSS Fundamentals Review & Practice
 Baseline knowledge quiz and interactive review of CSS fundamentals: cascade, specificity, box model, Flexbox, DevTools, and testing methodology
 
-### [13](./13-css-grid-responsive/) - Flexbox Practice & CSS Fundamentals Q&A
+### [13](./13-flexbox-practice-fundamentals/) - Flexbox Practice & CSS Fundamentals Q&A
 Hands-on Flexbox practice, clarification on block vs inline elements, absolute vs relative positioning, and layout problem-solving
 
 ### [14](./14-flexbox-mastery/) - Flexbox Mastery & Layout Patterns

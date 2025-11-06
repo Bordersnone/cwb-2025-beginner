@@ -461,4 +461,4 @@ Today is about hands-on practice. Build the examples, try the challenges, experi
 
 ---
 
-← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-css-grid-responsive/README.md) | [Class 15 - CSS Grid & Responsive Design] →
+← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) | [Class 15 - CSS Grid & Responsive Design] →
