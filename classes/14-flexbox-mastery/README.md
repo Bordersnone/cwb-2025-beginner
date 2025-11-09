@@ -1,4 +1,4 @@
-# Class 14 - Flexbox Mastery & Layout Patterns
+# Class 14 - Flexbox Practice Check-In
 
 **Lead:** Kiley  
 **Assistant:** Timotej  
@@ -6,11 +6,13 @@
 
 ---
 
-## 📋 Background
+## 📋 What Actually Happened
 
-Based on student progress in Class 13, we're dedicating this class to mastering Flexbox through hands-on practice. Before diving into CSS Grid, we want to ensure everyone is confident with Flexbox - the tool you'll use most often for layouts.
+**Class Status:** This class was shortened to a status check and planning session.
 
-**Philosophy:** Practice makes perfect. Today is about building real layouts, not just learning theory.
+**Context:** Some students who attended Class 13 are working on Flexbox exercises, while others missed that session and need to catch up. To ensure everyone moves forward together, we decided to reschedule the planned content.
+
+**Decision:** Class 14's planned Flexbox mastery content will be covered in **Class 15 (Tuesday, November 11)** along with catch-up support for those who missed Class 13.
 
 ---
 
@@ -18,357 +20,101 @@ Based on student progress in Class 13, we're dedicating this class to mastering 
 
 > **🎥 [Watch Class Recording](#)** ← *Link will be added within 24 hours*
 >
-> Missed class or want to review? Watch the full recording to see us build layouts together!
+> This was a brief planning session (approximately 22 minutes) to assess student progress and plan the next steps.
 
 ---
 
-## 📂 Class Materials
+## 🎯 What This Means for You
 
-> **📁 [View Example Files](./class-files/)**
+### If You Attended Class 13:
+✅ Great! You're on track. Continue working on converting the grid examples to Flexbox layouts.
+
+**Practice Assignment:**
+- Work on converting `example1.html`, `example2.html`, and `example3.html` from [Class 13](../13-flexbox-practice-fundamentals/class-files/) to use Flexbox instead of Grid
+- The goal: Make them look exactly the same but using Flexbox
+- **Important:** You'll need to modify the HTML structure, not just the CSS (Flexbox requires different structure than Grid)
+
+### If You Missed Class 13:
+📚 Don't worry! Class 15 will include catch-up time.
+
+**What to do before Tuesday:**
+1. Review the [Class 13 materials](../13-flexbox-practice-fundamentals/README.md)
+2. Try to understand the difference between Grid and Flexbox
+3. Attempt the example conversions on your own (it's okay if you get stuck!)
+4. Bring questions to Class 15
+
+---
+
+## 📂 Materials to Review
+
+> **📁 [Class 13 Example Files](../13-flexbox-practice-fundamentals/class-files/)**
 >
-> Working examples and practice tasks are available:
-> - **`navbar-example.html`** - Navigation bar pattern
-> - **`card-grid-example.html`** - Responsive card grid
-> - **`holy-grail-example.html`** - Full page layout
-> - **`practice-task1.html`** - Photo gallery challenge
-> - **`practice-task2.html`** - Pricing cards challenge
+> Focus on these grid-based layouts to convert to Flexbox:
+> - **`example1.html`** (with `style.css`) - Photo gallery layout
+> - **`example2.html`** (with `style2.css`) - Card layout
+> - **`example3.html`** (with `style3.css`) - Navigation layout
+>
+> **Note:** Ignore the task files (task1.html, task2.html, etc.) - those were created by mistake.
 
 ---
 
-## 📚 Quick Links
+## 🏠 Practice Assignment for Everyone
 
-- [What We'll Cover](#-what-well-cover)
-- [Practice Exercises](#-practice-exercises)
-- [Learning Resources](#-resources)
-- [What You Should Know](#-what-you-should-know-after-this-class)
+### Required: Convert Grid Examples to Flexbox
 
----
+**Challenge:** Take the three grid-based examples from Class 13 and recreate them using Flexbox.
 
-## 🎯 Today's Focus
-
-**Goal:** Build confidence with Flexbox through hands-on practice with real-world layout patterns.
-
-We'll build three common layouts together:
-1. **Navigation Bar** - Horizontal navigation with logo and links
-2. **Card Grid** - Responsive cards that wrap automatically
-3. **Holy Grail Layout** - Full page with header, sidebar, main content, and footer
-
-Then you'll practice with challenges on your own!
-
----
-
-## 📝 What We'll Cover
-
-### Quick Review: Block vs Inline vs Inline-Block
-
-From Class 13, let's quickly recap:
-
-**Block Elements** (`<div>`, `<p>`, `<h1>`):
-- Take full width available
-- Start on new line
-- Accept width and height
-
-**Inline Elements** (`<span>`, `<a>`, `<strong>`):
-- Only take needed width
-- Stay in same line
-- Don't accept width/height
-
-**Inline-Block**:
-- Stay in line like inline
-- Accept width/height like block
-- Perfect for buttons, nav items
-
----
-
-### Quick Review: Positioning
-
-**Relative Positioning:**
-```css
-.element {
-    position: relative;
-    top: 10px;  /* Offset from original position */
-}
-```
-- Element stays in normal flow
-- Can be offset from where it would normally be
-- Creates positioning context for absolute children
-
-**Absolute Positioning:**
-```css
-.parent {
-    position: relative;  /* Creates context */
-}
-
-.child {
-    position: absolute;
-    top: 20px;
-    right: 20px;  /* Positioned relative to .parent */
-}
-```
-- Element removed from normal flow
-- Positioned relative to nearest positioned ancestor
-- Common for overlays, badges, tooltips
-
----
-
-### Pattern 1: Flexbox Navigation Bar
-
-**What We're Building:**
-```
-┌────────────────────────────────────────┐
-│ LOGO    Home  About  Services  Contact │
-└────────────────────────────────────────┘
-```
-
-**Key Flexbox Properties:**
-
-```css
-nav {
-    display: flex;                    /* Make it flexbox */
-    justify-content: space-between;   /* Logo left, links right */
-    align-items: center;              /* Vertically center */
-    gap: 30px;                        /* Space between items */
-}
-
-.nav-links {
-    display: flex;                    /* Nested flexbox! */
-    gap: 20px;                        /* Space between links */
-}
-```
-
-**Why This Works:**
-- `space-between` pushes items to edges
-- Nested flexbox (nav is flex, nav-links is also flex)
-- `gap` is easier than margins for spacing
-- `align-items: center` handles vertical alignment
-
-📺 **Example:** [navbar-example.html](./class-files/navbar-example.html)
-
----
-
-### Pattern 2: Responsive Card Grid
-
-**What We're Building:**
-```
-┌─────────┐ ┌─────────┐ ┌─────────┐
-│  Card 1 │ │  Card 2 │ │  Card 3 │
-└─────────┘ └─────────┘ └─────────┘
-(wraps to new line on smaller screens)
-```
-
-**The Magic Formula:**
-
-```css
-.card-container {
-    display: flex;
-    flex-wrap: wrap;      /* Allow wrapping */
-    gap: 20px;            /* Space between cards */
-}
-
-.card {
-    flex: 1 1 250px;      /* The key to responsive cards! */
-}
-```
-
-**Understanding `flex: 1 1 250px`:**
-- **First `1`** = Can grow to fill space
-- **Second `1`** = Can shrink if needed
-- **`250px`** = Minimum width before wrapping to new line
-
-**Result:** Cards automatically wrap when screen gets too narrow!
-
-📺 **Example:** [card-grid-example.html](./class-files/card-grid-example.html)
-
----
-
-### Pattern 3: Holy Grail Layout
-
-**What We're Building:**
-```
-┌──────────────────────┐
-│       Header         │
-├─────┬────────────────┤
-│Side │   Main Content │
-│ bar │                │
-├─────┴────────────────┤
-│       Footer         │
-└──────────────────────┘
-```
-
-**The Secret: Nested Flexbox**
-
-```css
-/* Outer container - vertical layout */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;      /* Full viewport height */
-}
-
-/* Middle section - horizontal layout */
-.main-container {
-    display: flex;           /* Now horizontal (default) */
-    flex: 1;                /* Grow to fill space */
-}
-
-aside {
-    width: 200px;           /* Fixed sidebar width */
-}
-
-main {
-    flex: 1;                /* Main content takes remaining space */
-}
-```
-
-**Why Footer Sticks to Bottom:**
-1. Body is `min-height: 100vh` (full viewport)
-2. Main container has `flex: 1` (grows to fill remaining space)
-3. Footer stays at bottom even with little content!
-
-📺 **Example:** [holy-grail-example.html](./class-files/holy-grail-example.html)
-
----
-
-## 🏋️ Practice Exercises
-
-### Exercise 1: Photo Gallery (20 minutes)
-
-**Challenge:** Build a responsive image gallery using Flexbox.
+**Files to Convert:**
+1. `example1.html` + `style.css`
+2. `example2.html` + `style2.css`
+3. `example3.html` + `style3.css`
 
 **Requirements:**
-- Images wrap to new lines when screen narrows
-- Minimum 200px per image
-- Images grow to fill space
-- Add hover effect (your choice!)
-- Smooth transitions
+- Visual appearance should look identical to the original
+- Must use Flexbox (`display: flex`) instead of Grid (`display: grid`)
+- Will need to modify HTML structure (Flexbox needs different structure than Grid)
+- Create new files so you keep the originals for reference
 
-**Starter File:** [practice-task1.html](./class-files/practice-task1.html)
-
-**Hints:**
-- Use `flex-wrap: wrap`
-- Use `flex: 1 1 200px` on gallery items
-- Add `transition` for hover effects
-
----
-
-### Exercise 2: Pricing Cards (25 minutes)
-
-**Challenge:** Create pricing cards with equal heights and buttons at bottom.
-
-**Requirements:**
-- Cards side-by-side (centered)
-- All cards same height
-- Button always at bottom of card
-- Hover effect on cards
-- Use flexbox inside cards too!
-
-**Starter File:** [practice-task2.html](./class-files/practice-task2.html)
-
-**Hints:**
-- Container: `display: flex; justify-content: center;`
-- Cards: `display: flex; flex-direction: column;`
-- Features list: `flex-grow: 1` (pushes button to bottom)
+**How to Approach:**
+1. Copy the example file (e.g., save as `example1-flexbox.html`)
+2. Look at the current Grid CSS and identify what layout it creates
+3. Plan how to achieve the same layout with Flexbox
+4. Modify both HTML structure and CSS as needed
+5. Test by resizing browser to ensure it's responsive
 
 ---
 
-### Exercise 3: Build Your Own Navigation
+## 💡 Key Concepts to Understand
 
-**Challenge:** Create a navigation bar for your personal website.
+### Grid vs Flexbox: When to Use Each
 
-**Requirements:**
-- Logo or site name on left
-- Navigation links on right
-- Hover effects
-- Responsive (we'll improve with media queries later)
+**Grid (what the examples currently use):**
+- Best for 2D layouts (rows AND columns)
+- Can place items precisely in cells
+- Use: Page layouts, photo galleries, complex grids
 
-**Start from scratch** or copy `navbar-example.html` and customize it!
+**Flexbox (what you're converting to):**
+- Best for 1D layouts (one direction at a time)
+- Items flow in a line and wrap if needed
+- Use: Navigation bars, card rows, alignment
 
----
+### Why Change the HTML Structure?
 
-### Exercise 4: Dashboard Header (Advanced)
-
-**Challenge:** Build a dashboard header with three sections.
-
-**Layout:**
-```
-┌────────────────────────────────────────┐
-│ Logo   [   Search Bar   ]   Profile   │
-└────────────────────────────────────────┘
+**Grid approach:**
+```html
+<div class="grid-container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
 ```
 
-**Requirements:**
-- Logo: fixed size
-- Search bar: grows to fill available space
-- Profile: fixed size
-- All vertically centered
+**Flexbox might need:**
+- Different nesting levels
+- Additional wrapper elements
+- Different semantic structure
 
-**Hint:** Use `flex: 1` on the search bar!
-
----
-
-## 🏠 Homework & Practice
-
-### Required Assignments
-
-**1. Complete Both Practice Tasks**
-
-Finish `practice-task1.html` and `practice-task2.html`:
-- Photo gallery with responsive wrapping
-- Pricing cards with equal heights
-- Push to GitHub when complete
-
-**2. Build a Navigation Bar**
-
-Create a professional navigation for your personal website:
-- Logo on left, links on right
-- Hover effects with transitions
-- Clean, professional styling
-- Test by resizing browser
-
-**3. Holy Grail Layout Practice**
-
-Recreate the full-page layout from class:
-- Header, sidebar, main content, footer
-- Footer sticks to bottom
-- Test with different amounts of content
-- Take screenshots showing it works
-
-**4. Flexbox Patterns Study**
-
-Create `flexbox-experiments.html` and try:
-- Different `justify-content` values
-- Different `align-items` values
-- Different `flex-direction` values
-- Nested flexbox patterns
-- Document what each property does (in comments)
-
----
-
-### Extra Credit (Optional)
-
-**Challenge 1: Product Cards**
-
-Build a product showcase with:
-- Product image
-- Title and description
-- Price
-- "Add to Cart" button at bottom
-- 3 cards per row on desktop, 1 on mobile
-
-**Challenge 2: Team Member Grid**
-
-Create a team page with:
-- Member photos (circular with `border-radius: 50%`)
-- Name and title
-- Social media links
-- Responsive grid layout
-
-**Challenge 3: Feature Sections**
-
-Build alternating feature sections:
-- Image on left, text on right
-- Text on left, image on right (next section)
-- Responsive (stack on mobile)
+The key: Grid can define both rows and columns at the parent level. Flexbox works in one direction, so you might need nested containers for complex layouts.
 
 ---
 
@@ -382,83 +128,62 @@ Build alternating feature sections:
 
 **Visual Guides:**
 - [CSS-Tricks - Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Best visual reference
-- [Flexbox Patterns](https://flexboxpatterns.com/) - Copy-paste common patterns
+- [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 
 **Video Tutorials:**
 - [Flexbox in 20 Minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc)
-- [Flexbox Tutorial for Beginners](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+- [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
 
-**Documentation:**
-- [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout) - Complete docs
-- [MDN - flex Property](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - Deep dive into flex shorthand
+### Grid vs Flexbox
 
-### Layout Inspiration
-
-- [Every Layout](https://every-layout.dev/) - Modern layout patterns
-- [Dribbble](https://dribbble.com/search/web-layout) - Design inspiration
+- [CSS-Tricks - When to Use Grid vs Flexbox](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/)
+- [MDN - Relationship of Grid to Other Layout Methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
 
 ---
 
-## ✅ What You Should Know After This Class
+## ✅ What You Should Know Before Class 15
 
-By the end of today, you should be able to:
+Before attending the next class, make sure you understand:
 
-- ✅ Build a navigation bar with Flexbox
-- ✅ Create responsive card grids that wrap automatically
-- ✅ Understand `flex: 1 1 [basis]` and use it effectively
-- ✅ Build full-page layouts with nested Flexbox
-- ✅ Make footers stick to bottom of page
-- ✅ Use `gap` for spacing between flex items
-- ✅ Apply hover effects with transitions
-- ✅ Debug Flexbox layouts with DevTools
-- ✅ Know when to use block, inline, and inline-block
-- ✅ Use positioning for overlays and special layouts
+- ✅ The difference between Grid and Flexbox layouts
+- ✅ Basic Flexbox properties: `display: flex`, `flex-direction`, `justify-content`, `align-items`
+- ✅ How `flex-wrap` allows items to wrap to new lines
+- ✅ The difference between block and inline elements (covered in Class 13)
+- ✅ How to use browser DevTools to inspect layouts
 
-**Most Important:** You should feel confident building common layouts with Flexbox!
+**Don't worry if you're not 100% confident** - Class 15 will include review and hands-on practice!
 
 ---
 
-## 💡 Key Takeaways
+## 🔜 Next Class: Flexbox Mastery & Catch-Up
 
-### 1. Flexbox is for One Direction
-Row OR column. For layouts that need both rows AND columns precisely controlled, that's when Grid comes in (next class!).
+**Class 15** (Tuesday, November 11, 2025) will include:
 
-### 2. Nested Flexbox is Powerful
-A flex container can also be a flex item. Use this for complex layouts (nav bar with links, page with sections, etc.).
+### For Everyone:
+- Review of Grid vs Flexbox concepts
+- Hands-on practice with grid-to-Flexbox conversions
+- Building common layout patterns with Flexbox
+- Q&A and individual support
 
-### 3. The Flex Shorthand is Your Friend
-`flex: 1 1 250px` = grow, shrink, minimum basis. Master this and responsive layouts become easy.
+### Additional Topics (if time permits):
+- Navigation bar patterns
+- Responsive card grids
+- Full-page layouts with Flexbox
+- When to use Grid vs Flexbox in real projects
 
-### 4. Gap is Better Than Margin
-`gap: 20px` is cleaner than adding margins to every item. Use it!
-
-### 5. Always Test by Resizing
-A truly responsive layout works at any size. Resize your browser constantly while building.
-
-### 6. DevTools Shows Everything
-Use the Flexbox inspector in DevTools to see exactly what's happening with your layouts.
-
----
-
-## 🔜 Coming Up Next
-
-**Class 15** will cover CSS Grid - the tool for 2D layouts. Now that you're comfortable with Flexbox, you'll understand when Grid is the better choice.
-
-**Preview:**
-- When to use Grid vs Flexbox
-- Grid template columns and rows
-- Auto-fit and minmax for responsive grids
-- Grid areas for complex layouts
-- Combining Grid + Flexbox
+**Come prepared with:**
+- Your attempts at the example conversions (even if incomplete)
+- Questions about Flexbox or Grid
+- Your GitHub and Render setup ready to go
 
 ---
 
 ## 🎓 Remember
 
-> "The best way to learn Flexbox is to build with it. Don't just read - code!"
+> "Practice is more valuable than perfection. Try the exercises, make mistakes, and bring your questions to class!"
 
-Today is about hands-on practice. Build the examples, try the challenges, experiment and break things. That's how you learn!
+The goal isn't to master Flexbox before Tuesday - it's to attempt the exercises and identify where you need help. That's exactly what Class 15 is for!
 
 ---
 
-← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) | [Class 15 - CSS Grid & Responsive Design] →
+← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) | [Class 15 - Flexbox Mastery & Layout Patterns](../15-flexbox-mastery-continued/README.md) →

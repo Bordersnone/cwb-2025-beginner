@@ -197,15 +197,18 @@ By the end of this class, you should be able to:
 
 ---
 
-## 🔜 Next Class: Flexbox Mastery
+## 🔜 Next Classes
 
-**Class 14** (November 6, 2025) will continue building Flexbox skills with:
+**Class 14** (November 6, 2025) - Brief status check and planning session
+
+**Class 15** (November 11, 2025) will be a comprehensive Flexbox workshop:
+- Catch-up for students who missed this class
+- Grid-to-Flexbox conversion review
 - More complex Flexbox patterns
 - Real-world layout examples
 - Hands-on practice with common UI patterns
-- Introduction to when Grid is more appropriate than Flexbox
 
-**Note:** CSS Grid content will be covered thoroughly once Flexbox foundations are solid.
+**Note:** CSS Grid content will be covered after Flexbox foundations are solid for everyone.
 
 ---
 
