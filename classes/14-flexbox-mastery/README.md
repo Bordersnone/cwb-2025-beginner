@@ -18,7 +18,7 @@
 
 ## 📹 Class Recording
 
-> **🎥 [Watch Class Recording](#)** ← *Link will be added within 24 hours*
+> **🎥 [Watch Class Recording](https://app.read.ai/analytics/meetings/01K9D23631MJVFK6J8F1026EQN)**
 >
 > This was a brief planning session (approximately 22 minutes) to assess student progress and plan the next steps.
 
