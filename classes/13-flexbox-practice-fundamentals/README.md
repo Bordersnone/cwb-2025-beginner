@@ -214,7 +214,7 @@ By the end of this class, you should be able to:
 
 ## 🔗 Class Navigation
 
-← [Class 12 - CSS Fundamentals Review & Practice](../12-css-fundamentals-review/README.md) | [Class 14 - Flexbox Mastery & Layout Patterns](../14-flexbox-mastery/README.md) →
+← [Class 12 - CSS Fundamentals Review & Practice](../12-css-fundamentals-review/README.md) | [Class 14 - Flexbox Practice Check-In](../14-flexbox-mastery/README.md) →
 
 ---
 

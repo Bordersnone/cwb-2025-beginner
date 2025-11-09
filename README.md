@@ -33,7 +33,8 @@ This is a hands-on web development course that takes students from zero to build
 | 11 | ~~28-Oct-2025~~ | ~~[CANCELED](/classes/11-css-grid-responsive/)~~ | ~~Salem~~ | ~~Timotej~~ |
 | 12 | 30-Oct-2025 | [CSS Fundamentals Review & Practice](/classes/12-css-fundamentals-review/) | Kiley | Timotej |
 | 13 | 4-Nov-2025 | [Flexbox Practice & CSS Fundamentals Q&A](/classes/13-flexbox-practice-fundamentals/) | Salem | Timotej |
-| 14 | 6-Nov-2025 | [Flexbox Mastery & Layout Patterns](/classes/14-flexbox-mastery/) | Kiley | Timotej |
+| 14 | 6-Nov-2025 | [Flexbox Practice Check-In](/classes/14-flexbox-mastery/) | Kiley | Timotej |
+| 15 | 11-Nov-2025 | [Flexbox Mastery & Catch-Up Workshop](/classes/15-flexbox-mastery-continued/) | Timotej | - |
 
 ## 🚀 Quick Links
 

@@ -63,8 +63,11 @@ Baseline knowledge quiz and interactive review of CSS fundamentals: cascade, spe
 ### [13](./13-flexbox-practice-fundamentals/) - Flexbox Practice & CSS Fundamentals Q&A
 Hands-on Flexbox practice, clarification on block vs inline elements, absolute vs relative positioning, and layout problem-solving
 
-### [14](./14-flexbox-mastery/) - Flexbox Mastery & Layout Patterns
-Deep practice with real-world Flexbox patterns: navigation bars, card grids, holy grail layouts, and responsive design techniques
+### [14](./14-flexbox-mastery/) - Flexbox Practice Check-In
+Brief status check and planning session for Grid-to-Flexbox conversion assignments
+
+### [15](./15-flexbox-mastery-continued/) - Flexbox Mastery & Catch-Up Workshop
+Comprehensive Flexbox workshop combining catch-up support and advanced layout patterns: navigation bars, card grids, holy grail layouts, and responsive design techniques
 
 ## Resources
 

@@ -155,7 +155,7 @@ Before attending the next class, make sure you understand:
 
 ---
 
-## 🔜 Next Class: Flexbox Mastery & Catch-Up
+## 🔜 Next Class: Flexbox Mastery & Catch-Up Workshop
 
 **Class 15** (Tuesday, November 11, 2025) will include:
 
@@ -186,4 +186,4 @@ The goal isn't to master Flexbox before Tuesday - it's to attempt the exercises 
 
 ---
 
-← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) | [Class 15 - Flexbox Mastery & Layout Patterns](../15-flexbox-mastery-continued/README.md) →
+← [Class 13 - Flexbox Practice & CSS Fundamentals Q&A](../13-flexbox-practice-fundamentals/README.md) | [Class 15 - Flexbox Mastery & Catch-Up Workshop](../15-flexbox-mastery-continued/README.md) →

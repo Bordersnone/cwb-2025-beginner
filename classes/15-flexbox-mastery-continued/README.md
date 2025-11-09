@@ -1,6 +1,7 @@
 # Class 15 - Flexbox Mastery & Catch-Up Workshop
 
-**Lead:** Timotej & Kiley  
+**Lead:** Timotej  
+**Assistant:** None  
 **Date:** Tuesday, November 11, 2025
 
 ---
@@ -26,7 +27,6 @@
 ## 🎯 Today's Structure
 
 ### Part 1: Catch-Up & Review (First 45 minutes)
-**Led by Timotej**
 
 For students who missed Class 13 or need additional support:
 - Review of Grid vs Flexbox concepts
@@ -40,13 +40,12 @@ For students who missed Class 13 or need additional support:
 - `example3.html` → Flexbox (navigation layout)
 
 ### Part 2: Flexbox Mastery for Everyone (Second 45 minutes)
-**Led by Kiley**
 
 Building common layout patterns:
 - Navigation bars with logo and links
 - Responsive card grids that wrap automatically
 - Full-page layouts with header, sidebar, and footer
-- GitHub and Render deployment support
+- GitHub and Render deployment support as needed
 
 ---
 
