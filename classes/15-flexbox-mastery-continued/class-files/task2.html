@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #020817;
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      display: grid;
+      gap: 2.5rem;
+    }
+
+    header.topbar {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    header .logo {
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      color: #60a5fa;
+    }
+    header .nav {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+
+    header .top-cta {
+      padding: 0.55rem 1.25rem;
+      border-radius: 999px;
+      background: #111827;
+      border: 1px solid #1f2937;
+      color: white;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 2fr);
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .content-main-title {
+      font-size: 2.1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .content-main-text {
+      font-size: 0.95rem;
+      color: #9ca3af;
+      line-height: 1.6;
+      max-width: 30rem;
+    }
+
+    .features {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .feature {
+      padding: 0.9rem 1rem;
+      border-radius: 0.7rem;
+      background: #020817;
+      border: 1px solid #111827;
+      display: grid;
+      gap: 0.25rem;
+    }
+
+    .feature-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #6b7280;
+    }
+
+    .feature-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .feature-text {
+      font-size: 0.8rem;
+      color: #9ca3af;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="logo">NAVBAR</div>
+      <nav class="nav">
+        <div>Overview</div><div>Guides</div><div>Playground</div><div>Docs</div>
+      </nav>
+      <button class="top-cta">Get access</button>
+    </header>
+    <section class="content">
+      <div>
+        <h1 class="content-main-title">Layout exercise for extensive use of flexbox.</h1>
+        <p class="content-main-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ut ipsum distinctio nobis eveniet.
+        </p>
+      </div>
+      <div class="features">
+        <article class="feature">
+          <div class="feature-label">01</div>
+          <div class="feature-title">Responsive header bar</div>
+          <div class="feature-text">Lorem ipsum dolor sit amet. </div>
+        </article>
+        <article class="feature">
+          <div class="feature-label">02</div>
+          <div class="feature-title">Two-column split</div>
+          <div class="feature-text">Lorem ipsum dolor sit amet.</div>
+        </article>
+        <article class="feature">
+          <div class="feature-label">03</div>
+          <div class="feature-title">Vertical card stack</div>
+          <div class="feature-text">Lorem ipsum dolor sit amet.</div>
+        </article>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

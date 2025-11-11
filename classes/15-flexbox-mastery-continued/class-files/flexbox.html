@@ -1,0 +1,418 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="expires" content="0">
+    <title>3</title>
+
+    <style>
+        body {        
+            padding: 0 2rem;
+            background: #e0e0e0;
+            font-family: sans-serif;
+        }
+        .boxes {
+            background-image: linear-gradient(135deg, #3b83f6e3 10%, #0000 0, #0000 50%, #3b83f6e3 0, #3b83f6e3 60%, #0000 0, #0000);
+            background-size: 7.07px 7.07px;
+            font-family: ui-monospace, monospace;
+            font-weight: 700;
+            gap: 1rem;
+            border-radius: .5rem;
+            font-size: 14px;
+        }
+        
+        .wrap {
+            margin-top: 0.5rem;
+        }
+        .auto-box .boxes > div, .box{
+            color: #fff;
+            background-color: rgb(59 130 246);
+            display: flex;
+            align-items: center; justify-content: center;
+            box-sizing: border-box;
+            border-radius: .5rem;
+        } 
+        .box{
+            padding: 1em;
+        }
+
+        .highlight {
+            color: rgb(59 130 246) !important;
+            background-color: rgb(30 64 175) !important;
+        }
+        .card {
+            background-color:#fafafa;
+            border-radius: 4px;
+            border: 1px solid #000;
+        }
+        .card {
+            padding: 2rem;
+
+        }
+        h3, h2, h1 {
+            margin-top: 0;
+        }
+        code {
+            font-family: sans-serif;
+            background: #ccc;
+            border-radius: 4px;
+            padding: .18rem .26rem;
+        }
+        .space-y {
+            margin-top: 1.5rem;
+        }
+        .flex-1, .auto-box .boxes > div {
+            flex: 1 1 0%;
+        }
+    </style>
+
+    <style>
+
+        .py-4 { padding: 1rem 0; } .py-8 { padding: 2rem 0; } .py-12 { padding: 3rem 0; }
+        .pb-2 { padding-bottom: .5rem; } .pb-4 { padding-bottom: 1rem; } .pb-6 { padding-bottom: 1.5rem; } .pb-8 { padding-bottom: 2rem; } .pb-12 { padding-bottom: 3rem; }
+        .pt-2 { padding-top: .5rem; } .pt-4 { padding-top: 1rem; } .pt-6 { padding-top: 1.5rem; } .pt-8 { padding-top: 2rem; } .pt-12 { padding-top: 3rem; }
+        
+        .h-24 { height: 6rem;}
+        
+        .w-14 { width: 3.5rem;}
+        .w-32 { width: 8rem;}
+        .w-64 { width: 16rem;}
+
+        .boxes {
+            display: flex;
+        }
+</style>
+</head>
+<body>
+    <h1 style="margin: 1rem 0; color: #1e40af;"> Flexbox</h1>
+    <h2 style="margin: 1rem 0;">Basic usage</h2>
+
+    <div class="card">
+        <h2>Initial</h2>
+        <p>Use <code>flex: 0 1 auto</code> to allow a flex item to shrink but not grow, taking into account its initial size:</p>    
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14 highlight" style="flex: none;">01</div>
+                <div class="box w-64 " style="flex: 0 1 auto;">02</div>
+                <div class="box w-32" style="flex: 0 1 auto;">03</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h2>Flex 1</h2>
+        <p>Use <code>flex: 1 1 0%</code> to allow a flex item to grow and shrink as needed, ignoring its initial size:</p>    
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14 highlight" style="flex: none;">01</div>
+                <div class="box w-64 " style="flex: 1 1 0%;">02</div>
+                <div class="box w-32" style="flex: 1 1 0%;">03</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h2>Auto</h2>
+        <p>Use <code>flex: 1 1 auto</code> to allow a flex item to grow and shrink, taking into account its initial size: </p>
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14 highlight" style="flex: none;">01</div>
+                <div class="box w-64 " style="flex: 1 1 auto;">02</div>
+                <div class="box w-32" style="flex: 1 1 auto;">03</div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="card">
+        <h2>None</h2>
+        <p>Use <code>flex: none</code> to prevent a flex item from growing or shrinking: </p>
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14" style="flex: none;">01</div>
+                <div class="box w-64 " style="flex: none;">02</div>
+                <div class="box w-32 highlight" style="flex: 1 1 0%;">03</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2>Position</h2>
+
+    <div class="card">
+        <h3 style="color: #1e40af">Main Axis</h3>        
+        <h1>Justify Content</h1>
+        <p>Utilities for controlling how flex items are positioned along a container's main axis.</p>
+
+        <h2 class="space-y">Start</h2>
+        <p>Use <code>justify-content: flex-start</code> to justify items against the start of the container's main axis: </p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: flex-start;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>        
+        <h2 class="space-y">Center</h2>
+        <p>Use <code>justify-content: center</code> to justify items along the center of the container's main axis: </p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: center;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">End </h2>
+        <p>Use <code>justify-content: flex-end</code> to justify items against the end of the container's main axis: </p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: flex-end;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">Space between </h2>
+        <p>Use <code>justify-content: space-between</code> to justify items along the container's main axis such that there is an equal amount of space between each item: </p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: space-between;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">Space around </h2>
+        <p>Use <code>justify-content: space-around</code> to justify items along the container's main axis such that there is an equal amount of space on each side of each item:</p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: space-around;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">Space evenly </h2>
+        <p>Use <code>justify-content: space-evenly</code> to justify items along the container's main axis such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using justify-around: </p>
+        <div class="wrap">
+            <div class="boxes" style="justify-content: space-evenly;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+        <!--h2 class="space-y">Stretch </h2>
+        <p>Use <code>justify-content: stretch</code> to allow content items to fill the available space along the container's main axis: </p>
+        <div class="wrap">
+            <div class="boxes" style="display: grid; grid-auto-flow: column; justify-content: stretch;">
+                <div class="box">01</div> <div class="box">02</div> <div class="box">03</div>
+            </div>
+        </div-->
+    </div>
+    <br>
+    <div class="card auto-box">
+        <h3 style="color: #1e40af">Cross Axis</h3>        
+        <h1>Align Items</h1>
+        <p>Utilities for controlling how flex items are positioned along a container's cross axis.</p>
+
+        <h2 class="space-y">Start</h2>
+        <p>Use <code>align-items: flex-start</code> to align items to the start of the container’s cross axis: </p>
+        <div class="wrap">
+            <div class="boxes" style="align-items: flex-start;">
+                <div class="py-4">01</div> 
+                <div class="py-12">02</div> 
+                <div class="py-8">03</div>
+            </div>
+        </div>        
+        <h2 class="space-y">Stretch </h2>
+        <p>Use <code>align-items: stretch</code> to stretch items to fill the container’s cross axis:</p>
+        <div class="wrap">
+            <div class="boxes" style="align-items: stretch;">
+                <div class="py-4">01</div> 
+                <div class="py-12">02</div> 
+                <div class="py-8">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">Center</h2>
+        <p>Use <code>align-items: center</code> to align items along the center of the container’s cross axis:</p>
+        <div class="wrap">
+            <div class="boxes" style="align-items: center;">
+                <div class="py-4">01</div> 
+                <div class="py-12">02</div> 
+                <div class="py-8">03</div>
+            </div>
+        </div>        
+        <h2 class="space-y">End</h2>
+        <p>Use <code>align-items: flex-end</code> to align items to the end of the container’s cross axis:</p>
+        <div class="wrap">
+            <div class="boxes" style="align-items: flex-end;">
+                <div class="py-4">01</div> 
+                <div class="py-12">02</div> 
+                <div class="py-8">03</div>
+            </div>
+        </div>        
+        <h2 class="space-y">Baseline</h2>
+        <p>Use <code>align-items: baseline</code> to align items along the container’s cross axis such that all of their baselines align: </p>
+        <div class="wrap">
+            <div class="boxes" style="align-items: baseline;">
+                <div class="pt-2 pb-6">01</div> 
+                <div class="pt-8 pb-12">02</div> 
+                <div class="pt-12 pb-4">03</div>
+            </div>
+        </div>
+
+        <h1 class="space-y">Align Self</h1>
+        <p>Utilities for controlling how an individual flex item is positioned along its container's cross axis. That's impossible to do on the main axis with flexbox.</p>
+
+        <h2 class="space-y">Auto</h2>
+        <p>Use <code>align-self: auto</code> to align an item based on the value of the container’s align-items property: </p>
+        <div class="wrap">
+            <div class="boxes h-24" style="align-items: stretch;">
+                <div class="py-4 highlight">01</div> 
+                <div class="py-4" style="align-self: auto;">02</div> 
+                <div class="py-4 highlight">03</div>
+            </div>
+        </div>        
+
+        <h2 class="space-y">Center</h2>
+        <p>Use <code>align-self: center</code> to align an item along the center of the container’s cross axis, despite the container’s align-items value: </p>
+        <div class="wrap">
+            <div class="boxes h-24" style="align-items: stretch;">
+                <div class="py-4 highlight">01</div> 
+                <div class="py-4" style="align-self: center;">02</div> 
+                <div class="py-4 highlight">03</div>
+            </div>
+        </div>        
+        
+    </div>
+    <br>
+    <h2>Gap</h2>
+    <div class="card">
+        <h1>Gap</h1>
+        <p>Utilities for controlling space between flexbox items.</p>
+
+        <h2 class="space-y">Main</h2>
+        <p>Use <code>column-gap: 4rem</code> to change the gap between columns in flexbox layouts: </p>
+        <div class="wrap">
+            <div class="boxes" style="column-gap: 4rem;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+                <div class="box w-14">04</div> <div class="box w-14">05</div> <div class="box w-14">06</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Cross</h2>
+        <p>Use <code>row-gap: 4rem</code> to change the gap between rows in flexbox layouts: </p>
+        <div class="wrap">
+            <div class="boxes" style="row-gap: 4rem; flex-wrap: wrap;">
+                <div class="box w-64">01</div> <div class="box w-64">02</div> <div class="box w-64">03</div>
+                <div class="box w-64">04</div> <div class="box w-64">05</div> <div class="box w-64">06</div>
+                <div class="box w-64">07</div> <div class="box w-64">08</div> <div class="box w-64">09</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Main and Cross</h2>
+        <p>Use <code>gap: 4rem</code> to change the gap between both rows and columns in flexbox layouts: </p>
+        <div class="wrap">
+            <div class="boxes" style="gap: 4rem; flex-wrap: wrap;">
+                <div class="box w-32">01</div> <div class="box w-32">02</div> <div class="box w-32">03</div>
+                <div class="box w-32">04</div> <div class="box w-32">05</div> <div class="box w-32">06</div>
+                <div class="box w-32">07</div> <div class="box w-32">08</div> <div class="box w-32">09</div>
+                <div class="box w-32">10</div> <div class="box w-32">11</div> <div class="box w-32">12</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2>Direction</h2>
+    <div class="card">
+        <h1>Direction</h1>
+        <p>Utilities for controlling the direction of flex items.</p>
+
+        <h2 class="space-y">Row</h2>
+        <p>Use <code>flex-direction: row</code> to  position flex items horizontally in the same direction as text: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-direction: row;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Row reversed</h2>
+        <p>Use <code>flex-direction: row-reverse</code> to position flex items horizontally in the opposite direction: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-direction: row-reverse;">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Column</h2>
+        <p>Use <code>flex-direction: column</code> to position flex items vertically: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-direction: column; align-items: center;">
+                <div class="box w-64">01</div> <div class="box w-64">02</div> <div class="box w-64">03</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Column reversed</h2>
+        <p>Use <code>flex-direction: column-reverse</code> to position flex items vertically in the opposite direction: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-direction: column-reverse; align-items: center;">
+                <div class="box w-64">01</div> <div class="box w-64">02</div> <div class="box w-64">03</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <br>
+    <h2>Wrap</h2>
+    <div class="card">
+        <h1>Wrap</h1>
+        <p>Utilities for controlling how flex items wrap.</p>
+
+        <h2 class="space-y">No wrap</h2>
+        <p>Use <code>flex-wrap: nowrap</code> to prevent flex items from wrapping, causing inflexible items to overflow the container if necessary: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-wrap: nowrap; overflow-x: auto;">
+                <div class="box w-64 highlight" style="flex-shrink: 0;">01</div> <div class="box w-64" style="flex-shrink: 0;">02</div> <div class="box w-64" style="flex-shrink: 0;">03</div>
+                <div class="box w-64" style="flex-shrink: 0;">04</div> <div class="box w-64" style="flex-shrink: 0;">05</div> <div class="box w-64" style="flex-shrink: 0;">06</div>
+                <div class="box w-64" style="flex-shrink: 0;">07</div> <div class="box w-64" style="flex-shrink: 0;">08</div> <div class="box w-64 highlight" style="flex-shrink: 0;">09</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Normal</h2>
+        <p>Use <code>flex-wrap: wrap</code> to allow flex items to wrap: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-wrap: wrap; overflow-x: auto;">
+                <div class="box w-64 highlight" style="flex-shrink: 0;">01</div> <div class="box w-64" style="flex-shrink: 0;">02</div> <div class="box w-64" style="flex-shrink: 0;">03</div>
+                <div class="box w-64" style="flex-shrink: 0;">04</div> <div class="box w-64" style="flex-shrink: 0;">05</div> <div class="box w-64" style="flex-shrink: 0;">06</div>
+                <div class="box w-64" style="flex-shrink: 0;">07</div> <div class="box w-64" style="flex-shrink: 0;">08</div> <div class="box w-64 highlight" style="flex-shrink: 0;">09</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">Reversed</h2>
+        <p>Use <code>flex-wrap: wrap-reverse</code> to wrap flex items in the reverse direction: </p>
+        <div class="wrap">
+            <div class="boxes" style="flex-wrap: wrap-reverse; overflow-x: auto;">
+                <div class="box w-64 highlight" style="flex-shrink: 0;">01</div> <div class="box w-64" style="flex-shrink: 0;">02</div> <div class="box w-64" style="flex-shrink: 0;">03</div>
+                <div class="box w-64" style="flex-shrink: 0;">04</div> <div class="box w-64" style="flex-shrink: 0;">05</div> <div class="box w-64" style="flex-shrink: 0;">06</div>
+                <div class="box w-64" style="flex-shrink: 0;">07</div> <div class="box w-64" style="flex-shrink: 0;">08</div> <div class="box w-64 highlight" style="flex-shrink: 0;">09</div>
+            </div>
+        </div>
+    </div>
+  
+    <br>
+    <h2>Order</h2>
+    <div class="card">
+        <h1>Order</h1>
+        <p>Utilities for controlling the order of flex items.</p>
+
+        <h2 class="space-y">Move backward</h2>
+        <p>Use <code>order: -2</code> to move flex item by 2 places back: </p>
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14">01</div> <div class="box w-14">02</div> <div class="box w-14" style="order: -2;">03</div>
+            </div>
+        </div>
+        <h2 class="space-y">Move forward</h2>
+        <p>Use <code>order: 2</code> to move flex item by 2 places forward: </p>
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14" style="order: 2">01</div> <div class="box w-14">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+
+        <h2 class="space-y">None</h2>
+        <p>Use <code>order: 0</code> to not change flex item order (default): </p>
+        <div class="wrap">
+            <div class="boxes">
+                <div class="box w-14">01</div> <div class="box w-14" style="order: 0">02</div> <div class="box w-14">03</div>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+
+
+</body></html>

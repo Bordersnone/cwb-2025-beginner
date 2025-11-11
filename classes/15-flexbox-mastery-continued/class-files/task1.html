@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, sans-serif;
+      background: #030817;
+      color: #e5e7eb;
+      display: grid;
+      place-items: center;
+    }
+
+    .cta {
+      display: grid;
+      gap: 0.75rem;
+      padding: 2rem 2.5rem;
+      background: #111827;
+      border-radius: 0.75rem;
+      box-shadow: 0 18px 40px rgba(15,23,42,0.7);
+      max-width: 360px;
+      width: 100%;
+    }
+
+    .cta-title {
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    .cta-text {
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    .cta-btn {
+        justify-self: start;
+        padding: 0.64rem 1.4rem;
+        border-radius: 999px;
+        border: none;
+        background: #3b82f6;
+        color: #fff;
+        font-size: 0.9rem;
+        cursor: pointer;
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cta">
+    <div class="cta-title">Start your next layout drill</div>
+    <div class="cta-text">Rebuild this centered card using flexbox only.</div>
+    <button class="cta-btn">Begin</button>
+  </div>
+</body>
+</html>
